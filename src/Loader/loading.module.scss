@@ -1,3 +1,56 @@
 .loading {
-    height: 10vh;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.platter {
+}
+
+.vinylContrast {
+    position: absolute;
+
+    // 76 seems to be the perf number for smooth infinite!!
+    ellipse {
+        stroke-dasharray: 76;
+        stroke-dashoffset: 0%;
+        animation-iteration-count: infinite;
+        animation-name: rotate;
+        animation-duration: 2s;
+        animation-direction: normal;
+        animation-timing-function: linear;
+    }
+
+    @keyframes rotate {
+        0% {
+            stroke-dashoffset: 0%;
+        }
+        50% {
+            stroke-dashoffset: 50%;
+        }
+        100% {
+            stroke-dashoffset: 100%;
+        }
+      }
+}
+
+.vinyl {
+    position: absolute;
+    top: 1px;
+}
+
+.tonearm {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
 }
