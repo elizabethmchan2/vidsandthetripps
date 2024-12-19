@@ -2,10 +2,11 @@ import { Platter } from '../assets/Platter';
 import { Tonearm } from '../assets/Tonearm';
 import { Vinyl } from '../assets/Vinyl';
 import VinylContrast from '../assets/VinylContrast';
-import './Loading.scss';
+import './Loader.scss';
 
 // TODO: fix css modules
 const Loader = () => {
+
   return (
     <div className='loading'>
         <div className='wrapper'>
