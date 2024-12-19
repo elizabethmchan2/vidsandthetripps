@@ -1,8 +1,8 @@
-import styles from './Loading.module.scss';
 import { Platter } from '../assets/Platter';
 import { Tonearm } from '../assets/Tonearm';
 import { Vinyl } from '../assets/Vinyl';
 import VinylContrast from '../assets/VinylContrast';
+import styles from './Loading.module.scss';
 
 const Loader = () => {
   return (
