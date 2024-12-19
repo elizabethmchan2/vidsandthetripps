@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Tonearm = ({className}: { className?: string}) => {
   return (
     <svg className={className} width="103" height="14" viewBox="0 0 103 14" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Vinyl = ({className}: { className?: string}) => {
   return (
     <svg className={className} width="187" height="65" viewBox="0 0 187 65" fill="none" xmlns="http://www.w3.org/2000/svg">
