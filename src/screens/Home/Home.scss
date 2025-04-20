@@ -1,25 +1,4 @@
-.home {
-  height: 100vh;
-  width: 100vw;
-  background-color: #f6530f;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  .loading {
-    position: absolute;
-    left: 75px;
-    bottom: 200px;
-    transform: scale(75%);
-  }
-}
-
-.title {
-  position: absolute;
-  left: 10px;
-  top: 5px;
-  margin: 0;
-  font-size: 20px;
+@mixin fadeIn {
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
@@ -32,5 +11,43 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f6530f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  margin: 0;
+  font-size: 20px;
+  @include fadeIn;
+}
+
+.recordStand {
+  position: absolute;
+  left: -22px;
+  bottom: -44px;
+  @include fadeIn();
+
+  .loading {
+    position: absolute;
+    left: 58px;
+    bottom: 345px;
+    transform: scale(75%);
+  }
+  .recordHolderStand {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scale(75%);
   }
 }
