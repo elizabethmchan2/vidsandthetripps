@@ -11,5 +11,5 @@ export const Record = ({ className }: { className?: string }) => {
       <ellipse cx="93.5" cy="32.5" rx="93.5" ry="32.5" fill="#250A06" />
       <ellipse cx="93.5" cy="31.5" rx="7.5" ry="2.5" fill="#D9D9D9" />
     </svg>
-  )
-}
+  );
+};

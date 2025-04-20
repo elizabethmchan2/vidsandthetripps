@@ -11,5 +11,5 @@ export const Platter = ({ className }: { className?: string }) => {
       <ellipse cx="98.5" cy="37" rx="98.5" ry="34" fill="#BFAEAE" />
       <ellipse cx="98.5" cy="34" rx="98.5" ry="34" fill="#D9D9D9" />
     </svg>
-  )
-}
+  );
+};

@@ -1,0 +1,36 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f6530f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .loading {
+    position: absolute;
+    left: 75px;
+    bottom: 200px;
+    transform: scale(75%);
+  }
+}
+
+.title {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  margin: 0;
+  font-size: 20px;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1.5s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

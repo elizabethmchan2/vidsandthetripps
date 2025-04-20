@@ -1,8 +1,8 @@
-import { Platter } from '../assets/Platter'
-import { Record } from '../assets/Record'
-import { RecordContrast } from '../assets/RecordContrast'
-import { Tonearm } from '../assets/Tonearm'
-import './Loader.scss'
+import { Platter } from '../assets/Platter';
+import { Record } from '../assets/Record';
+import { RecordContrast } from '../assets/RecordContrast';
+import { Tonearm } from '../assets/Tonearm';
+import './Loader.scss';
 
 // TODO: fix css modules
 const Loader = () => {
@@ -15,7 +15,7 @@ const Loader = () => {
         <Tonearm className="tonearm" />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Loader
+export default Loader;

@@ -11,5 +11,5 @@ export const RecordContrast = ({ className }: { className?: string }) => {
       <ellipse cx="98.5" cy="34" rx="80.5" ry="26" stroke="#D9D9D9" />
       <ellipse cx="98.5" cy="34" rx="72.5" ry="20" stroke="#D9D9D9" />
     </svg>
-  )
-}
+  );
+};

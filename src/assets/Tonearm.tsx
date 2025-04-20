@@ -24,5 +24,5 @@ export const Tonearm = ({ className }: { className?: string }) => {
         stroke="#F6530F"
       />
     </svg>
-  )
-}
+  );
+};
