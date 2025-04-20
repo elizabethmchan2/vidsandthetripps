@@ -48,8 +48,8 @@
 
 .tonearm {
     position: absolute;
-    bottom: 8px;
-    left: 0;
+    bottom: 18px;
+    right: 0;
     transform-origin: 0 0;
     animation-iteration-count: infinite;
     animation-name: bounce;
@@ -62,7 +62,7 @@
             transform: rotate(0);
         }
         50% {
-            transform: rotate(0.5deg);
+            transform: rotate(-0.5deg);
         }
         100% {
             transform: rotate(0);
