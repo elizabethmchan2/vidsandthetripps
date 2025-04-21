@@ -1,0 +1,42 @@
+.works {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  position: relative;
+
+  .albumReviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    height: fit-content;
+    position: relative;
+
+    .bar {
+      width: 450px;
+      height: 15px;
+      border-radius: 10px 10px 2px 2px;
+      // TODO: make css variables for colors
+      background-color: #250a06;
+      position: absolute;
+      bottom: -11px;
+      right: -10px;
+    }
+
+    .albumReview {
+      height: 100%;
+      width: 100%;
+      transition: transform ease-in-out 300ms;
+
+      &:hover {
+        transform: scale(101%);
+      }
+
+      img {
+        height: 200px;
+        width: 200px;
+        box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}

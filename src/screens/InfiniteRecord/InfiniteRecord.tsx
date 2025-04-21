@@ -3,9 +3,9 @@ import { useNavigate, useSearchParams } from 'react-router';
 import Loader from '../../Loader/Loader';
 import './InfiniteRecord.scss';
 
-function InfiniteRecord() {
+const InfiniteRecord = () => {
   const navigate = useNavigate();
-  const [searchParams, _] = useSearchParams();
+  const [searchParams] = useSearchParams();
 
   useEffect(() => {
     const changeRoute = window.setInterval(() => {
@@ -23,6 +23,6 @@ function InfiniteRecord() {
       <Loader />
     </div>
   );
-}
+};
 
 export default InfiniteRecord;

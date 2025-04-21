@@ -14,6 +14,7 @@ const router = createBrowserRouter([
     path: '/home',
     element: <Home />,
   },
+  // TODO: add 404 screen
 ]);
 
 createRoot(document.getElementById('root')!).render(

@@ -1,5 +1,6 @@
 import { RecordStand } from '../../assets/RecordStand';
 import Loader from '../../Loader/Loader';
+import Works from '../../Works/Works';
 import './Home.scss';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
         <RecordStand className="recordHolderStand" />
         <Loader />
       </div>
+      <Works />
     </div>
   );
 };

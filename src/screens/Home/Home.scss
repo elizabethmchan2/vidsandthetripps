@@ -18,36 +18,33 @@
   height: 100vh;
   width: 100vw;
   background-color: #f6530f;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.title {
-  position: absolute;
-  left: 10px;
-  top: 5px;
-  margin: 0;
-  font-size: 20px;
-  @include fadeIn;
-}
-
-.recordStand {
-  position: absolute;
-  left: -22px;
-  bottom: -44px;
-  @include fadeIn();
-
-  .loading {
+  .title {
     position: absolute;
-    left: 58px;
-    bottom: 345px;
-    transform: scale(75%);
+    left: 10px;
+    top: 5px;
+    margin: 0;
+    font-size: 20px;
+    @include fadeIn;
   }
-  .recordHolderStand {
+
+  .recordStand {
     position: absolute;
-    left: 0;
-    bottom: 0;
-    transform: scale(75%);
+    left: -22px;
+    bottom: -44px;
+    @include fadeIn();
+
+    .loading {
+      position: absolute;
+      left: 58px;
+      bottom: 345px;
+      transform: scale(75%);
+    }
+    .recordHolderStand {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      transform: scale(75%);
+    }
   }
 }
