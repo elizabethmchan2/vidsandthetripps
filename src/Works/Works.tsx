@@ -11,7 +11,7 @@ const OurCultureLAWitch = () => {
   return (
     <a className="albumReview" href={OUR_CULTURE_LA_WITCH} target="_blank">
       <img
-        src={'../../public/OurCultureLAWitch.webp'}
+        src={'public/OurCultureLAWitch.webp'}
         alt="LA Witch Doggod album cover"
       />
       {/* our culture */}
@@ -26,7 +26,7 @@ const NewNoiseBlackwaterHolylight = () => {
       target="_blank"
     >
       <img
-        src={'../../public/NewNoiseBlackwaterHolylight.webp'}
+        src={'public/NewNoiseBlackwaterHolylight.webp'}
         alt="LA Witch Doggod album cover"
       />
       {/* new noise */}

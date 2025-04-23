@@ -11,7 +11,7 @@ const router = createBrowserRouter([
     element: <InfiniteRecord />,
   },
   {
-    path: '/home',
+    path: 'home',
     element: <Home />,
   },
   // TODO: add 404 screen
