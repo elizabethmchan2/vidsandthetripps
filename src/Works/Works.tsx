@@ -1,7 +1,4 @@
 import './Works.scss';
-// import * as OurCultureLAWitch from '../../public/OurCultureLAWitch.webp';
-// import * as NewNoiseBlackWaterHolylight from '../../public/NewNoiseBlackwaterHolylight.webp';
-
 const OUR_CULTURE_LA_WITCH =
   'https://ourculturemag.com/2025/04/05/album-review-l-a-witch-doggod/';
 const NEW_NOISE_BLACKWATER_HOLYLIGHT =
@@ -11,7 +8,7 @@ const OurCultureLAWitch = () => {
   return (
     <a className="albumReview" href={OUR_CULTURE_LA_WITCH} target="_blank">
       <img
-        src={'public/OurCultureLAWitch.webp'}
+        src={'src/assets/OurCultureLAWitch.webp'}
         alt="LA Witch Doggod album cover"
       />
       {/* our culture */}
@@ -26,7 +23,7 @@ const NewNoiseBlackwaterHolylight = () => {
       target="_blank"
     >
       <img
-        src={'public/NewNoiseBlackwaterHolylight.webp'}
+        src={'src/assets/NewNoiseBlackwaterHolylight.webp'}
         alt="LA Witch Doggod album cover"
       />
       {/* new noise */}

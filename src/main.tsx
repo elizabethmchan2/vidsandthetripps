@@ -4,6 +4,7 @@ import './index.css';
 import InfiniteRecord from './screens/InfiniteRecord/InfiniteRecord.tsx';
 import Home from './screens/Home/Home.tsx';
 import { createBrowserRouter, RouterProvider } from 'react-router';
+import AskVids from './screens/AskVids/AskVids.tsx';
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: 'home',
     element: <Home />,
+  },
+  {
+    path: 'ask-vids',
+    element: <AskVids />,
   },
   // TODO: add 404 screen
 ]);
