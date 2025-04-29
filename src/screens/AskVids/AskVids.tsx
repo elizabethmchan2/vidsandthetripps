@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const ANSWERS = [
   'Okay but have you heard of riot girl',
