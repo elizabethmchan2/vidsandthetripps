@@ -13,14 +13,14 @@
     position: relative;
 
     .bar {
-      width: 450px;
+      width: 400px;
       height: 15px;
       border-radius: 10px 10px 2px 2px;
       // TODO: make css variables for colors
       background-color: #250a06;
       position: absolute;
       bottom: -11px;
-      right: -9px;
+      left: -30px;
     }
 
     .albumReview {
@@ -33,8 +33,8 @@
       }
 
       img {
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
         box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.2);
       }
     }
