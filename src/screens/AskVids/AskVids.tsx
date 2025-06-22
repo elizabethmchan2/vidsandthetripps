@@ -11,8 +11,8 @@ const getRandomInt = (min: number, max: number) => {
 
 const AskVids = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const submitRef = useRef<HTMLButtonElement>();
-  const textareaRef = useRef();
+  const submitRef = useRef<HTMLButtonElement>(null);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   const onSubmit = () => {
     if (isSubmitted) {
@@ -36,7 +36,7 @@ const AskVids = () => {
           onKeyUp={(key) => {
             if (key.code === 'Enter' && !isSubmitted) {
               onSubmit();
-              submitRef.current?.focus();
+              if (submitRef.current) submitRef.current.focus();
             }
           }}
           ref={textareaRef}
