@@ -1,3 +1,7 @@
+// colors
+$orange: #f6530f;
+
+// mixins
 @mixin fadeIn {
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;

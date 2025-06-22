@@ -1,67 +1,63 @@
-@import '../sharedStyles.scss';
+@import '../common.scss';
+@import './sharedWorkStyles.scss';
 
 .works {
   height: 100%;
   display: grid;
   position: relative;
   padding: 2rem;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1.5fr 1fr 1fr;
+  gap: 1rem;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    'about work-item-regina-spektor work-item-bruit work-item-spill-tab .'
+    'about work-item-la-witch work-item-garbage work-item-teaser-sweet .'
+    'recordPlayer work-item-blackwater-holylight work-item-skunk-anansie work-item-sunflower-bean .'
+    'recordPlayer . . . .'
+    'recordPlayer . . . .';
 
-  & > * {
+  & > *:not(.recordStand) {
     @include fadeIn();
+  }
+
+  & > *:not(.recordStand) {
+    @include hoverAnimation;
   }
 
   .recordStand {
     position: relative;
-    transform: scale(50%);
+    grid-area: recordPlayer;
+    // height: 250px;
+    align-self: end;
 
     .loading {
       position: absolute;
-      left: 55px;
-      bottom: 385px;
+      left: 25px;
+      bottom: 191px;
+      transform: scale(50%) translate(-50%, 50%);
     }
     .recordHolderStand {
       position: absolute;
       left: 0;
       bottom: 0;
+      transform: scale(50%) translate(-50%, 50%);
     }
   }
-
-  // .albumReviews {
-  //   display: grid;
-  //   grid-template-columns: 1fr 1fr;
-  //   gap: 2rem;
-  //   height: fit-content;
-  //   position: relative;
-
-  // .bar {
-  //   width: 400px;
-  //   height: 15px;
-  //   border-radius: 10px 10px 2px 2px;
-  //   // TODO: make css variables for colors
-  //   background-color: #250a06;
-  //   position: absolute;
-  //   bottom: -11px;
-  //   left: -30px;
-  // }
 
   .albumReview {
     height: 100%;
     width: 100%;
-    transition: transform ease-in-out 300ms;
     position: relative;
 
-    &:hover {
-      transform: scale(101%);
-    }
-
+    $recordHeight: 175px;
+    $recordWidth: 125px;
     img {
-      height: 150px;
-      width: 150px;
+      height: $recordHeight;
+      width: $recordWidth;
       box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.2);
       position: relative;
       z-index: 2;
+      object-fit: cover;
     }
 
     .albumReviewBackdrop {
@@ -69,8 +65,8 @@
       position: absolute;
       top: 2px;
       left: 2px;
-      height: 150px;
-      width: 150px;
+      height: $recordHeight;
+      width: $recordWidth;
       z-index: 1;
     }
   }
