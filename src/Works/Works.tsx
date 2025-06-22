@@ -1,29 +1,12 @@
-import ourCultureImage from '../assets/OurCultureLAWitch.webp';
-import blackWaterHolyLightImage from '../assets/NewNoiseBlackwaterHolylight.webp';
+import { RecordStand } from '../assets/RecordStand';
+import Loader from '../Loader/Loader';
+import { WORK_ITEMS, type WorkType } from './workItems';
 
-import './Works.scss';
-const OUR_CULTURE_LA_WITCH =
-  'https://ourculturemag.com/2025/04/05/album-review-l-a-witch-doggod/';
-const NEW_NOISE_BLACKWATER_HOLYLIGHT =
-  'https://newnoisemagazine.com/reviews/ep-review-blackwater-holylight-if-you-only-knew/';
-
-const OurCultureLAWitch = () => {
+export const Work = ({ href, src, altText }: WorkType) => {
   return (
-    <a className="albumReview" href={OUR_CULTURE_LA_WITCH} target="_blank">
-      <img src={ourCultureImage} alt="LA Witch Doggod album cover" />
-      {/* our culture */}
-    </a>
-  );
-};
-const NewNoiseBlackwaterHolylight = () => {
-  return (
-    <a
-      className="albumReview"
-      href={NEW_NOISE_BLACKWATER_HOLYLIGHT}
-      target="_blank"
-    >
-      <img src={blackWaterHolyLightImage} alt="LA Witch Doggod album cover" />
-      {/* new noise */}
+    <a className="albumReview" href={href} target="_blank">
+      <div className="albumReviewBackdrop" />
+      <img src={src} alt={altText} />
     </a>
   );
 };
@@ -31,10 +14,12 @@ const NewNoiseBlackwaterHolylight = () => {
 const Works = () => {
   return (
     <div className="works">
-      <div className="albumReviews">
-        <OurCultureLAWitch />
-        <NewNoiseBlackwaterHolylight />
-        <div className="bar" />
+      {WORK_ITEMS.map((work) => {
+        return <Work {...work} />;
+      })}
+      <div className="recordStand">
+        <RecordStand className="recordHolderStand" />
+        <Loader />
       </div>
     </div>
   );
