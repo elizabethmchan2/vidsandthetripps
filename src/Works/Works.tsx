@@ -1,7 +1,7 @@
 import About from './components/About/About';
-import { RecordStand } from '../assets/RecordStand';
-import Loader from '../Loader/Loader';
 import { WORK_ITEMS, type AlbumData } from './workItems';
+import { Stereo } from '../assets/home/Stereo';
+import { Bookshelf } from '../assets/home/Bookshelf';
 
 export const Work = ({
   href,
@@ -39,12 +39,14 @@ const Works = () => {
         }
 
         if (work.type === 'about') {
-          return <About />;
+          return <About key={work.key} />;
         }
       })}
       <div className="recordStand">
-        <RecordStand className="recordHolderStand" />
-        <Loader />
+        <Stereo />
+      </div>
+      <div className="bookshelf">
+        <Bookshelf />
       </div>
     </div>
   );

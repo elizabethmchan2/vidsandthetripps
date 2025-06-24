@@ -7,7 +7,7 @@ const About = () => {
       <p>
         {' '}
         I write and read and write about reading and read about writing and eat
-        and poop and sing and do punk{' '}
+        and do punk{' '}
       </p>
     </div>
   );

@@ -1,7 +1,7 @@
-import { Platter } from '../assets/Platter';
-import { Record } from '../assets/Record';
-import { RecordContrast } from '../assets/RecordContrast';
-import { Tonearm } from '../assets/Tonearm';
+import { Platter } from '../assets/infiniteLoader/Platter';
+import { Record } from '../assets/infiniteLoader/Record';
+import { RecordContrast } from '../assets/infiniteLoader/RecordContrast';
+import { Tonearm } from '../assets/infiniteLoader/Tonearm';
 import './Loader.scss';
 
 // TODO: fix css modules

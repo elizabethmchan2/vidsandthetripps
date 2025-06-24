@@ -8,40 +8,33 @@
   padding: 2rem;
   gap: 1rem;
   grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     'about work-item-regina-spektor work-item-bruit work-item-spill-tab .'
-    'about work-item-la-witch work-item-garbage work-item-teaser-sweet .'
-    'recordPlayer work-item-blackwater-holylight work-item-skunk-anansie work-item-sunflower-bean .'
-    'recordPlayer . . . .'
-    'recordPlayer . . . .';
+    'about work-item-la-witch work-item-blackwater-holylight work-item-skunk-anansie .'
+    'recordPlayer . . . bookshelf'
+    'recordPlayer . . . bookshelf';
 
-  & > *:not(.recordStand) {
+  & {
     @include fadeIn();
   }
 
-  & > *:not(.recordStand) {
+  & > *:not(.recordStand, .bookshelf) {
     @include hoverAnimation;
   }
 
   .recordStand {
     position: relative;
     grid-area: recordPlayer;
-    // height: 250px;
     align-self: end;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .loading {
-      position: absolute;
-      left: 25px;
-      bottom: 191px;
-      transform: scale(50%) translate(-50%, 50%);
-    }
-    .recordHolderStand {
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      transform: scale(50%) translate(-50%, 50%);
-    }
+  .bookshelf {
+    position: relative;
+    grid-area: bookshelf;
+    align-self: end;
   }
 
   .albumReview {
