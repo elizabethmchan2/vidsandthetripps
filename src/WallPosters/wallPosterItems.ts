@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import ourCultureImage from '../assets/works/OurCultureLAWitch.webp';
 import blackWaterHolyLightImage from '../assets/works/NewNoiseBlackwaterHolylight.webp';
 import reginaSpektor from '../assets/works/reginaSpektor.webp';
@@ -22,18 +23,20 @@ export type WallPosterType =
   | {
       key: string;
       type: 'about';
-      data: {
-        text: string;
-      };
+    }
+  | {
+      key: string;
+      type: 'facePoster';
     };
 
 export const WALL_POSTER_ITEMS: WallPosterType[] = [
   {
     key: 'aboutVida',
     type: 'about',
-    data: {
-      text: "hello i'm vida hasson",
-    },
+  },
+  {
+    key: 'facePoster',
+    type: 'facePoster',
   },
   {
     key: 'regina-spektor',
@@ -80,15 +83,15 @@ export const WALL_POSTER_ITEMS: WallPosterType[] = [
       altText: 'Skunk Anansie - The Painful Truth album cover',
     },
   },
-  {
-    key: 'bruit',
-    type: 'album',
-    data: {
-      href: 'https://newnoisemagazine.com/reviews/bruit-%E2%89%A4-the-age-of-ephemerality/',
-      src: bruit,
-      altText: 'Bruit - The Age of Ephemerality album cover',
-    },
-  },
+  // {
+  //   key: 'bruit',
+  //   type: 'album',
+  //   data: {
+  //     href: 'https://newnoisemagazine.com/reviews/bruit-%E2%89%A4-the-age-of-ephemerality/',
+  //     src: bruit,
+  //     altText: 'Bruit - The Age of Ephemerality album cover',
+  //   },
+  // },
   {
     key: 'spill-tab',
     type: 'album',

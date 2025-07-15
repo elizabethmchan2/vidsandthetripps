@@ -18,61 +18,58 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
       <rect
         x="1204.52"
         y="674.659"
-        width="1280"
+        width="1204.5"
         height="157.341"
         fill="#AA5301"
       />
       <line
         x1="1.78364"
-        y1="679.414"
+        y1="679.413"
         x2="1280.02"
         y2="675.445"
         stroke="#191717"
         stroke-width="2"
       />
       <line
-        x1="-139.805"
-        y1="703.711"
+        x1="10.5889"
+        y1="705.276"
         x2="2409.02"
-        y2="701.95"
+        y2="701.949"
+        stroke="#191717"
+        stroke-width="2"
+      />
+      <path
+        d="M19.4175 738.19L1280.96 730.494"
         stroke="#191717"
         stroke-width="2"
       />
       <line
-        y1="-1"
-        x2="1427.27"
-        y2="-1"
-        transform="matrix(0.999995 -0.00305954 0.0031182 0.999995 -146.306 735.862)"
-        stroke="#191717"
-        stroke-width="2"
-      />
-      <line
-        x1="-135.838"
-        y1="766.013"
+        x1="19.4018"
+        y1="765.709"
         x2="2411.52"
-        y2="756.717"
+        y2="756.716"
         stroke="#191717"
         stroke-width="2"
       />
       <line
-        x1="-0.730313"
-        y1="827.425"
+        x1="1.53366"
+        y1="826.839"
         x2="2409.02"
-        y2="821.623"
+        y2="821.622"
         stroke="#191717"
         stroke-width="2"
       />
       <line
-        x1="-135.837"
-        y1="797.164"
+        x1="10.5869"
+        y1="797.387"
         x2="2409.02"
-        y2="789.338"
+        y2="789.337"
         stroke="#191717"
         stroke-width="2"
       />
       <line
         x1="265.286"
-        y1="712.848"
+        y1="712.847"
         x2="254.622"
         y2="740.626"
         stroke="#252222"
@@ -82,7 +79,7 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
         x1="798.636"
         y1="711.986"
         x2="787.973"
-        y2="739.765"
+        y2="739.764"
         stroke="#252222"
         stroke-width="2"
       />
@@ -98,7 +95,7 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
         y1="-1"
         x2="32.6209"
         y2="-1"
-        transform="matrix(-0.361343 0.932433 -0.93471 -0.355411 857.167 794.338)"
+        transform="matrix(-0.361343 0.932433 -0.93471 -0.355411 857.167 794.337)"
         stroke="#252222"
         stroke-width="2"
       />
@@ -106,28 +103,28 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
         y1="-1"
         x2="32.6209"
         y2="-1"
-        transform="matrix(-0.361343 0.932433 -0.93471 -0.355411 1076.35 731.302)"
+        transform="matrix(-0.361343 0.932433 -0.93471 -0.355411 1076.35 731.301)"
         stroke="#252222"
         stroke-width="2"
       />
       <line
         x1="614.86"
-        y1="768.885"
+        y1="768.884"
         x2="604.197"
-        y2="796.664"
+        y2="796.663"
         stroke="#252222"
         stroke-width="2"
       />
       <ellipse
         cx="115.831"
-        cy="790.134"
+        cy="790.133"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="127.234"
-        cy="790.134"
+        cy="790.133"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
@@ -170,14 +167,14 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
       />
       <ellipse
         cx="347.971"
-        cy="805.853"
+        cy="805.852"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="337.502"
-        cy="805.853"
+        cy="805.852"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
@@ -198,42 +195,42 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
       />
       <ellipse
         cx="859.414"
-        cy="803.62"
+        cy="803.619"
         rx="0.929454"
         ry="0.951579"
         fill="#393434"
       />
       <ellipse
         cx="847.84"
-        cy="803.62"
+        cy="803.619"
         rx="0.929454"
         ry="0.951579"
         fill="#393434"
       />
       <ellipse
         cx="785.006"
-        cy="730.93"
+        cy="730.929"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="796.409"
-        cy="730.93"
+        cy="730.929"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="799.735"
-        cy="720.105"
+        cy="720.104"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="789.265"
-        cy="720.105"
+        cy="720.104"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
@@ -254,14 +251,14 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
       />
       <ellipse
         cx="1078.59"
-        cy="740.584"
+        cy="740.583"
         rx="0.929454"
         ry="0.951579"
         fill="#393434"
       />
       <ellipse
         cx="1067.02"
-        cy="740.584"
+        cy="740.583"
         rx="0.929454"
         ry="0.951579"
         fill="#393434"
@@ -282,65 +279,59 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
       />
       <ellipse
         cx="266.384"
-        cy="721.941"
+        cy="721.94"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="255.915"
-        cy="721.941"
+        cy="721.94"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="601.23"
-        cy="789.911"
+        cy="789.91"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="612.632"
-        cy="789.911"
+        cy="789.91"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="615.958"
-        cy="779.086"
+        cy="779.085"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="605.489"
-        cy="779.086"
+        cy="779.085"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
-      <line
-        x1="1278.9"
-        y1="675.414"
-        x2="2557.14"
-        y2="671.445"
+      <path
+        d="M1278.9 675.413L2408.61 675.413"
         stroke="#191717"
         stroke-width="2"
       />
-      <line
-        y1="-1"
-        x2="1427.27"
-        y2="-1"
-        transform="matrix(0.999995 -0.00305954 0.0031182 0.999995 1130.82 731.862)"
+      <path
+        d="M1130.81 730.861L2408.9 726.267"
         stroke="#191717"
         stroke-width="2"
       />
       <line
         x1="1542.41"
-        y1="708.848"
+        y1="708.847"
         x2="1531.74"
         y2="736.626"
         stroke="#252222"
@@ -350,7 +341,7 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
         x1="2075.76"
         y1="707.986"
         x2="2065.09"
-        y2="735.765"
+        y2="735.764"
         stroke="#252222"
         stroke-width="2"
       />
@@ -366,7 +357,7 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
         y1="-1"
         x2="32.6209"
         y2="-1"
-        transform="matrix(-0.361343 0.932433 -0.93471 -0.355411 2134.29 790.338)"
+        transform="matrix(-0.361343 0.932433 -0.93471 -0.355411 2134.29 790.337)"
         stroke="#252222"
         stroke-width="2"
       />
@@ -374,28 +365,28 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
         y1="-1"
         x2="32.6209"
         y2="-1"
-        transform="matrix(-0.361343 0.932433 -0.93471 -0.355411 2353.47 727.302)"
+        transform="matrix(-0.361343 0.932433 -0.93471 -0.355411 2353.47 727.301)"
         stroke="#252222"
         stroke-width="2"
       />
       <line
         x1="1891.98"
-        y1="764.885"
+        y1="764.884"
         x2="1881.32"
-        y2="792.664"
+        y2="792.663"
         stroke="#252222"
         stroke-width="2"
       />
       <ellipse
         cx="1392.95"
-        cy="786.134"
+        cy="786.133"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="1404.35"
-        cy="786.134"
+        cy="786.133"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
@@ -438,14 +429,14 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
       />
       <ellipse
         cx="1625.09"
-        cy="801.853"
+        cy="801.852"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="1614.62"
-        cy="801.853"
+        cy="801.852"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
@@ -465,43 +456,43 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
         fill="#393434"
       />
       <ellipse
-        cx="2136.53"
-        cy="799.62"
+        cx="2136.54"
+        cy="799.619"
         rx="0.929454"
         ry="0.951579"
         fill="#393434"
       />
       <ellipse
         cx="2124.96"
-        cy="799.62"
+        cy="799.619"
         rx="0.929454"
         ry="0.951579"
         fill="#393434"
       />
       <ellipse
         cx="2062.13"
-        cy="726.93"
+        cy="726.929"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="2073.53"
-        cy="726.93"
+        cy="726.929"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="2076.86"
-        cy="716.105"
+        cy="716.104"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="2066.39"
-        cy="716.105"
+        cy="716.104"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
@@ -522,14 +513,14 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
       />
       <ellipse
         cx="2355.71"
-        cy="736.584"
+        cy="736.583"
         rx="0.929454"
         ry="0.951579"
         fill="#393434"
       />
       <ellipse
         cx="2344.14"
-        cy="736.584"
+        cy="736.583"
         rx="0.929454"
         ry="0.951579"
         fill="#393434"
@@ -550,14 +541,14 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
       />
       <ellipse
         cx="1543.51"
-        cy="717.941"
+        cy="717.94"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="1533.04"
-        cy="717.941"
+        cy="717.94"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
@@ -572,14 +563,14 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
       />
       <ellipse
         cx="487.186"
-        cy="694.935"
+        cy="694.934"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="498.589"
-        cy="694.935"
+        cy="694.934"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
@@ -600,9 +591,9 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
       />
       <line
         x1="1230.42"
-        y1="676.41"
+        y1="676.409"
         x2="1219.75"
-        y2="704.189"
+        y2="704.188"
         stroke="#252222"
         stroke-width="2"
       />
@@ -622,78 +613,78 @@ export const LeftWallAndFloor = ({ className }: { className: string }) => {
       />
       <ellipse
         cx="1231.52"
-        cy="685.503"
+        cy="685.502"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="1221.05"
-        cy="685.503"
+        cy="685.502"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="1878.35"
-        cy="785.911"
+        cy="785.91"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="1889.75"
-        cy="785.911"
+        cy="785.91"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="1893.08"
-        cy="775.086"
+        cy="775.085"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="1882.61"
-        cy="775.086"
+        cy="775.085"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <line
         x1="1807.31"
-        y1="674.788"
+        y1="674.787"
         x2="1796.65"
-        y2="702.567"
+        y2="702.566"
         stroke="#252222"
         stroke-width="2"
       />
       <ellipse
         cx="1793.68"
-        cy="694.706"
+        cy="694.705"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="1805.08"
-        cy="694.706"
+        cy="694.705"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="1808.41"
-        cy="683.881"
+        cy="683.88"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"
       />
       <ellipse
         cx="1797.94"
-        cy="683.881"
+        cy="683.88"
         rx="0.84082"
         ry="0.869049"
         fill="#393434"

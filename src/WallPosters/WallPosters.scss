@@ -8,20 +8,21 @@
   display: grid;
   position: relative;
   padding: 2rem;
-  gap: 1rem;
+  gap: 4rem;
   grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    'about work-item-regina-spektor work-item-bruit work-item-spill-tab .'
-    'about work-item-la-witch work-item-blackwater-holylight work-item-skunk-anansie .'
+    'about facePoster work-item-la-witch work-item-spill-tab .'
+    'about work-item-regina-spektor work-item-blackwater-holylight work-item-skunk-anansie .'
     'recordPlayer . . . bookshelf'
     'recordPlayer . . . bookshelf';
+  margin-left: 4rem;
 
   & {
     @include fadeIn();
   }
 
-  & > *:not(.recordStand, .bookshelf) {
+  & > *:not(.recordStand, .bookshelf, .about) {
     @include hoverAnimation;
   }
 

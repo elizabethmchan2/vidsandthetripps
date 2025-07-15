@@ -2,6 +2,7 @@ import About from './components/About/About';
 import { WALL_POSTER_ITEMS, type AlbumData } from './wallPosterItems';
 import { Stereo } from '../assets/home/Stereo';
 import { Bookshelf } from '../assets/home/Bookshelf';
+import FacePoster from './components/FacePoster/FacePoster';
 import './WallPosters.scss';
 
 export const WallPoster = ({
@@ -37,6 +38,10 @@ const WallPosters = () => {
               gridAreaName={`work-item-${work.key}`}
             />
           );
+        }
+
+        if (work.type === 'facePoster') {
+          return <FacePoster />;
         }
 
         if (work.type === 'about') {
