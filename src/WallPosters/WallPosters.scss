@@ -1,7 +1,9 @@
 @use '../common.scss' as *;
 @use './sharedWorkStyles.scss' as *;
 
-.works {
+.wallPosters {
+  z-index: 2;
+  grid-area: works;
   height: 100%;
   display: grid;
   position: relative;

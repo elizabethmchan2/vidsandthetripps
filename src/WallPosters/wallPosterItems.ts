@@ -8,15 +8,12 @@ import spillTab from '../assets/works/spillTab.webp';
 import teaserSweet from '../assets/works/teaserSweet.webp';
 import sunflowerBean from '../assets/works/sunflowerBean.webp';
 
-import './Works.scss';
-
-export type WorkItemType = 'about' | 'album';
 export type AlbumData = {
   href: string;
   src: string;
   altText: string;
 };
-export type WorkType =
+export type WallPosterType =
   | {
       key: string;
       type: 'album';
@@ -30,7 +27,7 @@ export type WorkType =
       };
     };
 
-export const WORK_ITEMS: WorkType[] = [
+export const WALL_POSTER_ITEMS: WallPosterType[] = [
   {
     key: 'aboutVida',
     type: 'about',

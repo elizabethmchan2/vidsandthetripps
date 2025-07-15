@@ -1,12 +1,12 @@
-import Works from '../../Works/Works';
+import WallPosters from '../../WallPosters/WallPosters';
 import './Home.scss';
-// import About from '../../About/About';
+import { LeftWallAndFloor } from '../../assets/home/LeftWallAndFloor';
 
 const Home = () => {
   return (
     <div className="home">
-      <Works />
-      {/* <About /> */}
+      <WallPosters />
+      <LeftWallAndFloor className="leftWallAndFloor" />
     </div>
   );
 };

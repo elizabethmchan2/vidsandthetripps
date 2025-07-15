@@ -1,9 +1,10 @@
 import About from './components/About/About';
-import { WORK_ITEMS, type AlbumData } from './workItems';
+import { WALL_POSTER_ITEMS, type AlbumData } from './wallPosterItems';
 import { Stereo } from '../assets/home/Stereo';
 import { Bookshelf } from '../assets/home/Bookshelf';
+import './WallPosters.scss';
 
-export const Work = ({
+export const WallPoster = ({
   href,
   src,
   altText,
@@ -24,13 +25,13 @@ export const Work = ({
   );
 };
 
-const Works = () => {
+const WallPosters = () => {
   return (
-    <div className="works">
-      {WORK_ITEMS.map((work) => {
+    <div className="wallPosters">
+      {WALL_POSTER_ITEMS.map((work) => {
         if (work.type === 'album') {
           return (
-            <Work
+            <WallPoster
               key={work.key}
               {...work.data}
               gridAreaName={`work-item-${work.key}`}
@@ -52,4 +53,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default WallPosters;
