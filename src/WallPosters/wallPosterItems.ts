@@ -1,13 +1,12 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import ourCultureImage from '../assets/works/OurCultureLAWitch.webp';
 import blackWaterHolyLightImage from '../assets/works/NewNoiseBlackwaterHolylight.webp';
 import reginaSpektor from '../assets/works/reginaSpektor.webp';
-import garbage from '../assets/works/garbage.webp';
+// import garbage from '../assets/works/garbage.webp';
 import skunkAnansie from '../assets/works/skunkAnansie.webp';
-import bruit from '../assets/works/bruit.webp';
+// import bruit from '../assets/works/bruit.webp';
 import spillTab from '../assets/works/spillTab.webp';
-import teaserSweet from '../assets/works/teaserSweet.webp';
-import sunflowerBean from '../assets/works/sunflowerBean.webp';
+// import teaserSweet from '../assets/works/teaserSweet.webp';
+// import sunflowerBean from '../assets/works/sunflowerBean.webp';
 
 export type AlbumData = {
   href: string;

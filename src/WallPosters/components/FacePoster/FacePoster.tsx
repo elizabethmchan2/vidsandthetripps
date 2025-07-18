@@ -1,4 +1,3 @@
-import React from 'react';
 import { Face } from '../../../assets/home/Face';
 import './FacePoster.scss';
 
