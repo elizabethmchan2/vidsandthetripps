@@ -9,14 +9,15 @@
   position: relative;
   padding: 2rem;
   gap: 4rem;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     'about facePoster work-item-la-witch work-item-spill-tab .'
-    'about work-item-regina-spektor work-item-blackwater-holylight work-item-skunk-anansie .'
-    'recordPlayer . . . bookshelf'
-    'recordPlayer . . . bookshelf';
+    '. work-item-regina-spektor work-item-blackwater-holylight work-item-skunk-anansie .'
+    'recordPlayer cdPlayerAndRecordArchive cdPlayerAndRecordArchive cdPlayerAndRecordArchive bookshelf'
+    'recordPlayer cdPlayerAndRecordArchive cdPlayerAndRecordArchive cdPlayerAndRecordArchive bookshelf';
   margin-left: 4rem;
+  margin-bottom: 4rem;
 
   & {
     @include fadeIn();
@@ -38,6 +39,22 @@
     position: relative;
     grid-area: bookshelf;
     align-self: end;
+  }
+
+  .cdPlayerAndRecordArchive {
+    position: relative;
+    grid-area: cdPlayerAndRecordArchive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .cdPlayer {
+      margin-bottom: -0.5rem;
+    }
+
+    .recordArchive {
+    }
   }
 
   .albumReview {

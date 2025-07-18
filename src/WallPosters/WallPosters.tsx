@@ -4,6 +4,8 @@ import { Stereo } from '../assets/home/Stereo';
 import { Bookshelf } from '../assets/home/Bookshelf';
 import FacePoster from './components/FacePoster/FacePoster';
 import './WallPosters.scss';
+import { CDPlayer } from '../assets/home/CDPlayer';
+import { RecordArchive } from '../assets/home/RecordArchive';
 
 export const WallPoster = ({
   href,
@@ -50,6 +52,14 @@ const WallPosters = () => {
       })}
       <div className="recordStand">
         <Stereo />
+      </div>
+      <div className="cdPlayerAndRecordArchive">
+        <div className="cdPlayer">
+          <CDPlayer />
+        </div>
+        <div className="recordArchive">
+          <RecordArchive />
+        </div>
       </div>
       <div className="bookshelf">
         <Bookshelf />
