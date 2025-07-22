@@ -6,13 +6,15 @@ import FacePoster from './components/FacePoster/FacePoster';
 import './WallPosters.scss';
 import { CDPlayer } from '../assets/home/CDPlayer';
 import { RecordArchive } from '../assets/home/RecordArchive';
+import girlOnGirl from '../assets/works/girlongirl.jpg';
+import { ZineLibrary } from '../assets/home/ZineLibrary';
 
 export const WallPoster = ({
   href,
   src,
   altText,
   gridAreaName,
-}: AlbumData & { gridAreaName: string }) => {
+}: AlbumData & { gridAreaName?: string }) => {
   return (
     <a
       className="albumReview"
@@ -62,6 +64,19 @@ const WallPosters = () => {
         </div>
       </div>
       <div className="bookshelf">
+        <div className="topOfBookshelf">
+          <a
+            className="girlOnGirl"
+            href={
+              'https://ourculturemag.com/2025/04/29/book-review-sophie-gilbert-girl-on-girl-how-pop-culture-turned-a-generation-of-women-against-themselves/'
+            }
+            target="_blank"
+          >
+            <div className="albumReviewBackdrop" />
+            <img src={girlOnGirl} alt="Girl on Girl by Sophie Gilbert" />
+          </a>
+          <ZineLibrary />
+        </div>
         <Bookshelf />
       </div>
     </div>

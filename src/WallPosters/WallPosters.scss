@@ -39,6 +39,21 @@
     position: relative;
     grid-area: bookshelf;
     align-self: end;
+
+    .topOfBookshelf {
+      margin: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+
+      .girlOnGirl {
+        img {
+          float: right;
+          width: 70px;
+          height: 100%;
+        }
+      }
+    }
   }
 
   .cdPlayerAndRecordArchive {
@@ -46,7 +61,7 @@
     grid-area: cdPlayerAndRecordArchive;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 
     .cdPlayer {
@@ -54,6 +69,7 @@
     }
 
     .recordArchive {
+      display: flex;
     }
   }
 
