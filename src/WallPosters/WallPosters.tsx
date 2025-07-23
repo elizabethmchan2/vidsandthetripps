@@ -53,14 +53,14 @@ const WallPosters = () => {
         }
       })}
       <div className="recordStand">
-        <Stereo />
+        <Stereo className="recordStandSVG" />
       </div>
       <div className="cdPlayerAndRecordArchive">
         <div className="cdPlayer">
-          <CDPlayer />
+          <CDPlayer className="cdPlayerSVG" />
         </div>
         <div className="recordArchive">
-          <RecordArchive />
+          <RecordArchive className="recordArchiveSVG" />
         </div>
       </div>
       <div className="bookshelf">
@@ -75,9 +75,9 @@ const WallPosters = () => {
             <div className="albumReviewBackdrop" />
             <img src={girlOnGirl} alt="Girl on Girl by Sophie Gilbert" />
           </a>
-          <ZineLibrary />
+          <ZineLibrary className="zineLibrarySVG" />
         </div>
-        <Bookshelf />
+        <Bookshelf className="bookshelfSVG" />
       </div>
     </div>
   );

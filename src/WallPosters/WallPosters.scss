@@ -9,13 +9,13 @@
   position: relative;
   padding: 2rem;
   gap: 4rem;
-  grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+  grid-template-columns: 20vw 1fr 1fr 1fr 20vw;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     'about facePoster work-item-la-witch work-item-spill-tab .'
     '. work-item-regina-spektor work-item-blackwater-holylight work-item-skunk-anansie .'
-    'recordPlayer cdPlayerAndRecordArchive cdPlayerAndRecordArchive cdPlayerAndRecordArchive bookshelf'
-    'recordPlayer cdPlayerAndRecordArchive cdPlayerAndRecordArchive cdPlayerAndRecordArchive bookshelf';
+    'recordPlayer cdPlayerAndRecordArchive cdPlayerAndRecordArchive . bookshelf'
+    'recordPlayer cdPlayerAndRecordArchive cdPlayerAndRecordArchive . bookshelf';
   margin-left: 4rem;
   margin-bottom: 4rem;
 
@@ -98,5 +98,14 @@
       width: $recordWidth;
       z-index: 1;
     }
+  }
+
+  .recordStandSVG,
+  .cdPlayerSVG,
+  .recordArchiveSVG,
+  .zineLibrarySVG,
+  .bookshelfSVG {
+    width: 100%;
+    height: 100%;
   }
 }
