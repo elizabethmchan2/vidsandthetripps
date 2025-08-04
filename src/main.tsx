@@ -8,6 +8,7 @@ import AskVids from './screens/AskVids/AskVids.tsx';
 import Bio from './screens/Bio/Bio.tsx';
 import Writings from './screens/Writings/Writings.tsx';
 import Zines from './screens/Zines/Zines.tsx';
+import Contact from './screens/Contact/Contact.tsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: 'zines',
     element: <Zines />,
+  },
+  {
+    path: 'contact',
+    element: <Contact />,
   },
   // TODO: add 404 screen
 ]);
