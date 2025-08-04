@@ -2,14 +2,19 @@ import React from 'react';
 import Face from '../assets/home/Face';
 import LeftWall from '../assets/home/LeftWall';
 import Floor from '../assets/home/Floor';
-
 import './MainContainer.scss';
 
-const MainContainer = ({ children }: { children: React.ReactNode }) => {
+const MainContainer = ({
+  children,
+  childrenContainerClassname,
+}: {
+  children: React.ReactNode;
+  childrenContainerClassname?: string;
+}) => {
   return (
     <div className="mainContainer">
       <nav className="navbar">
-        <ul className="nav navbar-nav">
+        <ul className="nav">
           <li className="nav-item">
             <a className="nav-link" href="/home">
               <Face className="facePoster" />
@@ -26,7 +31,7 @@ const MainContainer = ({ children }: { children: React.ReactNode }) => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/writings">
               Writings
             </a>
           </li>
@@ -42,11 +47,17 @@ const MainContainer = ({ children }: { children: React.ReactNode }) => {
           </li>
         </ul>
       </nav>
-      <div className="mainContainerChildren">
-        {children}
-        <LeftWall className="leftWall" />
-        <Floor className="floor" />
+      <div
+        className={`mainContainerChildrenContainer ${childrenContainerClassname || ''}`}
+      >
+        <div className="mainContainerChildren">
+          {/* <LeftWall className="leftWall" /> */}
+          {children}
+        </div>
       </div>
+      <footer>
+        <Floor className="floor" />
+      </footer>
     </div>
   );
 };

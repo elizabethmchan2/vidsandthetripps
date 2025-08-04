@@ -10,8 +10,8 @@ const Bio = () => {
           <p>
             Vida Hasson is a writer, music critic, and zine artist based in
             Seattle and San Francisco. Her writing has appeared in Razorcake,
-            Our Culture, New Noise Magazine, The Line of Best Fit, and Under the
-            Radar. She specializes in feminist punk music.
+            Our Culture Mag, New Noise Magazine, The Line of Best Fit, and Under
+            the Radar. She specializes in feminist punk music.
           </p>
         </div>
         <div className="bioRight">

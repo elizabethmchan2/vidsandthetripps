@@ -2,7 +2,6 @@
 @use './sharedWorkStyles.scss' as *;
 
 .wallPosters {
-  z-index: 2;
   grid-area: works;
   height: 100%;
   display: grid;
@@ -76,7 +75,9 @@
     align-items: center;
 
     .cdPlayer {
-      margin-bottom: -0.05rem;
+      margin-bottom: -0.1rem;
+      display: flex;
+      width: 65%;
     }
 
     .recordArchive {
@@ -90,8 +91,8 @@
     width: 100%;
     position: relative;
 
-    $recordHeight: 170px;
-    $recordWidth: 135px;
+    $recordHeight: 100%;
+    $recordWidth: 80%;
     img {
       height: $recordHeight;
       width: $recordWidth;

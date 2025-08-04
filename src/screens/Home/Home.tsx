@@ -1,11 +1,8 @@
 import WallPosters from './WallPosters/WallPosters';
 import MainContainer from '../../MainContainer/MainContainer';
-
-import './Home.scss';
-
 const Home = () => {
   return (
-    <MainContainer>
+    <MainContainer childrenContainerClassname="childrenContainerHomePage">
       <WallPosters />
     </MainContainer>
   );
