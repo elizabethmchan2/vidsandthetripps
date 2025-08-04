@@ -1,8 +1,16 @@
 @use '../../common.scss' as *;
 
-.leftWallAndFloor {
+.leftWall,
+.floor {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+.leftWall {
+  z-index: 1;
+}
+
+.floor {
   z-index: 0;
 }

@@ -9,28 +9,30 @@
   overflow: hidden;
 
   .facePoster {
-    min-width: 60px;
-    max-width: 80px;
-    min-height: 60px;
-    max-height: 80px;
+    width: 100px;
+    height: 100px;
   }
 
   .navbar {
     display: flex;
     justify-content: space-around;
+    padding: 0 3rem;
 
     .nav {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
       flex-grow: 1;
+      padding: 0;
 
       .nav-item {
         list-style-type: none;
 
         a {
           color: black;
+          font-size: 1.25rem;
+          text-transform: lowercase;
         }
       }
     }
@@ -39,5 +41,9 @@
   .mainContainerChildren {
     display: flex;
     flex-grow: 1;
+    min-width: 0;
+    min-height: 0;
+    padding: 0 3rem 3rem 3rem;
+    margin-left: 3rem;
   }
 }

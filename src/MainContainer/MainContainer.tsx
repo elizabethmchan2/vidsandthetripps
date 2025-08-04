@@ -1,5 +1,8 @@
 import React from 'react';
 import Face from '../assets/home/Face';
+import LeftWall from '../assets/home/LeftWall';
+import Floor from '../assets/home/Floor';
+
 import './MainContainer.scss';
 
 const MainContainer = ({ children }: { children: React.ReactNode }) => {
@@ -8,17 +11,17 @@ const MainContainer = ({ children }: { children: React.ReactNode }) => {
       <nav className="navbar">
         <ul className="nav navbar-nav">
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/home">
               <Face className="facePoster" />
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/home">
               Home
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/bio">
               Bio
             </a>
           </li>
@@ -39,7 +42,11 @@ const MainContainer = ({ children }: { children: React.ReactNode }) => {
           </li>
         </ul>
       </nav>
-      <div className="mainContainerChildren">{children}</div>
+      <div className="mainContainerChildren">
+        {children}
+        <LeftWall className="leftWall" />
+        <Floor className="floor" />
+      </div>
     </div>
   );
 };

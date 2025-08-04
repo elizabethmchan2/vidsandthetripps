@@ -1,0 +1,126 @@
+@use '../../../common.scss' as *;
+@use './sharedWorkStyles.scss' as *;
+
+.wallPosters {
+  z-index: 2;
+  grid-area: works;
+  height: 100%;
+  display: grid;
+  width: 100%;
+  position: relative;
+  padding: 2rem;
+  gap: 1rem;
+  grid-template-columns: 1.25fr 1fr 1fr 1.5fr;
+  grid-template-rows: 30% 1fr;
+  grid-template-areas:
+    'wallPosterReviews wallPosterReviews wallPosterReviews bookshelf'
+    'recordPlayer cdPlayerAndRecordArchive cdPlayerAndRecordArchive bookshelf';
+
+  & {
+    @include fadeIn();
+  }
+
+  // & > *:not(.recordStand, .bookshelf, .about, .wallPosterReviews) {
+  //   @include hoverAnimation;
+  // }
+
+  .wallPosterReviews {
+    grid-area: wallPosterReviews;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'work-item-regina-spektor work-item-la-witch work-item-indigo work-item-skunk-anansie ';
+
+    & > * {
+      @include hoverAnimation;
+    }
+  }
+
+  .recordStand {
+    position: relative;
+    grid-area: recordPlayer;
+    align-self: end;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bookshelf {
+    position: relative;
+    grid-area: bookshelf;
+    align-self: end;
+    display: flex;
+    flex-direction: column;
+
+    .topOfBookshelf {
+      margin: 0 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+
+      .girlOnGirl {
+        img {
+          float: right;
+          width: 50px;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  .cdPlayerAndRecordArchive {
+    position: relative;
+    grid-area: cdPlayerAndRecordArchive;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+    .cdPlayer {
+      margin-bottom: -0.05rem;
+    }
+
+    .recordArchive {
+      display: flex;
+      width: 80%;
+    }
+  }
+
+  .albumReview {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    $recordHeight: 170px;
+    $recordWidth: 135px;
+    img {
+      height: $recordHeight;
+      width: $recordWidth;
+      box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.2);
+      position: relative;
+      z-index: 2;
+      object-fit: cover;
+    }
+
+    .albumReviewBackdrop {
+      background-color: rgb(0, 0, 0, 0.3);
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      height: $recordHeight;
+      width: $recordWidth;
+      z-index: 1;
+    }
+  }
+
+  .recordStandSVG,
+  .cdPlayerSVG,
+  .recordArchiveSVG,
+  .bookshelfSVG {
+    width: 100%;
+    height: 100%;
+  }
+
+  .zineLibrarySVG {
+    width: 50%;
+  }
+}

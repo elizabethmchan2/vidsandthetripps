@@ -1,0 +1,32 @@
+@use '../../common.scss' as *;
+
+.bio {
+  display: flex;
+  @include fadeIn;
+
+  .bioLeft,
+  .bioRight {
+    flex: 50%;
+  }
+
+  .bioLeft {
+    display: flex;
+    justify-content: center;
+
+    p {
+      margin: 0;
+      padding: 0;
+      color: black;
+    }
+  }
+
+  .bioRight {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    .bioPhoto {
+      width: 50%;
+    }
+  }
+}

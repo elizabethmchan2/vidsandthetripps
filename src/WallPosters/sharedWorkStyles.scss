@@ -1,7 +1,0 @@
-@mixin hoverAnimation {
-  transition: transform ease-in-out 300ms;
-
-  &:hover {
-    transform: scale(101%);
-  }
-}

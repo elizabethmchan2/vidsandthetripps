@@ -1,11 +1,11 @@
 import { WALL_POSTER_ITEMS, type AlbumData } from './wallPosterItems';
-import { Stereo } from '../assets/home/Stereo';
-import { Bookshelf } from '../assets/home/Bookshelf';
+import { Stereo } from '../../../assets/home/Stereo';
+import { Bookshelf } from '../../../assets/home/Bookshelf';
 import './WallPosters.scss';
-import { CDPlayer } from '../assets/home/CDPlayer';
-import { RecordArchive } from '../assets/home/RecordArchive';
+import { CDPlayer } from '../../../assets/home/CDPlayer';
+import { RecordArchive } from '../../../assets/home/RecordArchive';
 import girlOnGirl from '../assets/works/girlongirl.jpg';
-import { ZineLibrary } from '../assets/home/ZineLibrary';
+import { ZineLibrary } from '../../../assets/home/ZineLibrary';
 
 export const WallPoster = ({
   href,
