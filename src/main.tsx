@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router';
 import AskVids from './screens/AskVids/AskVids.tsx';
 import Bio from './screens/Bio/Bio.tsx';
 import Writings from './screens/Writings/Writings.tsx';
+import Zines from './screens/Zines/Zines.tsx';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: 'writings',
     element: <Writings />,
+  },
+  {
+    path: 'zines',
+    element: <Zines />,
   },
   // TODO: add 404 screen
 ]);

@@ -3,7 +3,7 @@ import './Writings.scss';
 
 const AlbumReviews = () => {
   return (
-    <section className="section">
+    <section className="writingsSection">
       <h2> Album Reviews </h2>
       <ul className="sectionList">
         <li>
@@ -107,7 +107,7 @@ const AlbumReviews = () => {
 
 const Listicles = () => {
   return (
-    <section className="section">
+    <section className="writingsSection">
       <h2> Listicles </h2>
       <ul className="sectionList">
         <li>
@@ -133,7 +133,7 @@ const Listicles = () => {
 
 const InterviewsAndProfiles = () => {
   return (
-    <section className="section">
+    <section className="writingsSection">
       <h2> Interviews/Profiles </h2>
       <ul className="sectionList">
         <li>
@@ -196,7 +196,7 @@ const InterviewsAndProfiles = () => {
 
 const BookReviews = () => {
   return (
-    <section className="section">
+    <section className="writingsSection">
       <h2> Book Reviews </h2>
       <ul className="sectionList">
         <li>
@@ -215,7 +215,7 @@ const BookReviews = () => {
 
 const LiveShowReviews = () => {
   return (
-    <section className="section">
+    <section className="writingsSection">
       <h2> Live Show Reviews </h2>
       <ul className="sectionList">
         <li>

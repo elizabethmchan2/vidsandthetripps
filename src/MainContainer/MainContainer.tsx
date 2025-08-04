@@ -1,6 +1,6 @@
 import React from 'react';
 import Face from '../assets/home/Face';
-import LeftWall from '../assets/home/LeftWall';
+// import LeftWall from '../assets/home/LeftWall';
 import Floor from '../assets/home/Floor';
 import './MainContainer.scss';
 
@@ -36,7 +36,7 @@ const MainContainer = ({
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/zines">
               Zines
             </a>
           </li>
