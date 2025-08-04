@@ -1,13 +1,14 @@
 import WallPosters from '../../WallPosters/WallPosters';
 import './Home.scss';
 import { LeftWallAndFloor } from '../../assets/home/LeftWallAndFloor';
+import MainContainer from '../../MainContainer/MainContainer';
 
 const Home = () => {
   return (
-    <div className="home">
+    <MainContainer>
       <WallPosters />
       <LeftWallAndFloor className="leftWallAndFloor" />
-    </div>
+    </MainContainer>
   );
 };
 

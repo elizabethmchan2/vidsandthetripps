@@ -4,7 +4,8 @@ import reginaSpektor from '../assets/works/reginaSpektor.webp';
 // import garbage from '../assets/works/garbage.webp';
 import skunkAnansie from '../assets/works/skunkAnansie.webp';
 // import bruit from '../assets/works/bruit.webp';
-import spillTab from '../assets/works/spillTab.webp';
+// import spillTab from '../assets/works/spillTab.webp';
+import indigoDeSouza from '../assets/works/indigoDeSouza.webp';
 // import teaserSweet from '../assets/works/teaserSweet.webp';
 // import sunflowerBean from '../assets/works/sunflowerBean.webp';
 
@@ -30,14 +31,6 @@ export type WallPosterType =
 
 export const WALL_POSTER_ITEMS: WallPosterType[] = [
   {
-    key: 'aboutVida',
-    type: 'about',
-  },
-  {
-    key: 'facePoster',
-    type: 'facePoster',
-  },
-  {
     key: 'regina-spektor',
     type: 'album',
     data: {
@@ -46,15 +39,15 @@ export const WALL_POSTER_ITEMS: WallPosterType[] = [
       altText: 'Photo of Regina Spektor',
     },
   },
-  {
-    key: 'blackwater-holylight',
-    type: 'album',
-    data: {
-      href: 'https://newnoisemagazine.com/reviews/ep-review-blackwater-holylight-if-you-only-knew/',
-      src: blackWaterHolyLightImage,
-      altText: 'BlackWater Holylight - If Only You Knew album cover',
-    },
-  },
+  // {
+  //   key: 'blackwater-holylight',
+  //   type: 'album',
+  //   data: {
+  //     href: 'https://newnoisemagazine.com/reviews/ep-review-blackwater-holylight-if-you-only-knew/',
+  //     src: blackWaterHolyLightImage,
+  //     altText: 'BlackWater Holylight - If Only You Knew album cover',
+  //   },
+  // },
   {
     key: 'la-witch',
     type: 'album',
@@ -62,6 +55,24 @@ export const WALL_POSTER_ITEMS: WallPosterType[] = [
       href: 'https://ourculturemag.com/2025/04/05/album-review-l-a-witch-doggod/',
       src: ourCultureImage,
       altText: 'LA Witch - Doggod album cover',
+    },
+  },
+  {
+    key: 'skunk-anansie',
+    type: 'album',
+    data: {
+      href: 'https://newnoisemagazine.com/reviews/skunk-anansie-the-painful-truth/',
+      src: skunkAnansie,
+      altText: 'Skunk Anansie - The Painful Truth album cover',
+    },
+  },
+  {
+    key: 'indigo',
+    type: 'album',
+    data: {
+      href: 'https://ourculturemag.com/2025/07/24/album-review-indigo-de-souza-precipice/',
+      src: indigoDeSouza,
+      altText: 'Indigo De Souza - Precipice',
     },
   },
   // {
@@ -73,15 +84,6 @@ export const WALL_POSTER_ITEMS: WallPosterType[] = [
   //     altText: 'Garbage - Let All That We Imagine Be the Light album cover',
   //   },
   // },
-  {
-    key: 'skunk-anansie',
-    type: 'album',
-    data: {
-      href: 'https://newnoisemagazine.com/reviews/skunk-anansie-the-painful-truth/',
-      src: skunkAnansie,
-      altText: 'Skunk Anansie - The Painful Truth album cover',
-    },
-  },
   // {
   //   key: 'bruit',
   //   type: 'album',
@@ -91,15 +93,15 @@ export const WALL_POSTER_ITEMS: WallPosterType[] = [
   //     altText: 'Bruit - The Age of Ephemerality album cover',
   //   },
   // },
-  {
-    key: 'spill-tab',
-    type: 'album',
-    data: {
-      href: 'https://newnoisemagazine.com/reviews/spill-tab-angie/',
-      src: spillTab,
-      altText: 'Spill Tab - Angie album cover',
-    },
-  },
+  // {
+  //   key: 'spill-tab',
+  //   type: 'album',
+  //   data: {
+  //     href: 'https://newnoisemagazine.com/reviews/spill-tab-angie/',
+  //     src: spillTab,
+  //     altText: 'Spill Tab - Angie album cover',
+  //   },
+  // },
   // {
   //   key: 'teaser-sweet',
   //   type: 'album',

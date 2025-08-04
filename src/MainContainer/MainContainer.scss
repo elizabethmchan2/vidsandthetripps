@@ -1,0 +1,43 @@
+@use '../common.scss' as *;
+
+.mainContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: $orange;
+  background: #ff5c19;
+  overflow: hidden;
+
+  .facePoster {
+    min-width: 60px;
+    max-width: 80px;
+    min-height: 60px;
+    max-height: 80px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+
+    .nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      flex-grow: 1;
+
+      .nav-item {
+        list-style-type: none;
+
+        a {
+          color: black;
+        }
+      }
+    }
+  }
+
+  .mainContainerChildren {
+    display: flex;
+    flex-grow: 1;
+  }
+}

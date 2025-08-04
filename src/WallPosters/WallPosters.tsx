@@ -1,8 +1,6 @@
-import About from './components/About/About';
 import { WALL_POSTER_ITEMS, type AlbumData } from './wallPosterItems';
 import { Stereo } from '../assets/home/Stereo';
 import { Bookshelf } from '../assets/home/Bookshelf';
-import FacePoster from './components/FacePoster/FacePoster';
 import './WallPosters.scss';
 import { CDPlayer } from '../assets/home/CDPlayer';
 import { RecordArchive } from '../assets/home/RecordArchive';
@@ -33,25 +31,20 @@ export const WallPoster = ({
 const WallPosters = () => {
   return (
     <div className="wallPosters">
-      {WALL_POSTER_ITEMS.map((work) => {
-        if (work.type === 'album') {
-          return (
-            <WallPoster
-              key={work.key}
-              {...work.data}
-              gridAreaName={`work-item-${work.key}`}
-            />
-          );
-        }
-
-        if (work.type === 'facePoster') {
-          return <FacePoster />;
-        }
-
-        if (work.type === 'about') {
-          return <About key={work.key} />;
-        }
-      })}
+      <div className="wallPosterReviews">
+        {WALL_POSTER_ITEMS.map((work) => {
+          if (work.type === 'album') {
+            return (
+              <WallPoster
+                key={work.key}
+                {...work.data}
+                gridAreaName={`work-item-${work.key}`}
+              />
+            );
+          }
+        })}
+      </div>
+      {/* <div className="stereoAndBookshelf"> */}
       <div className="recordStand">
         <Stereo className="recordStandSVG" />
       </div>
@@ -78,6 +71,7 @@ const WallPosters = () => {
           <ZineLibrary className="zineLibrarySVG" />
         </div>
         <Bookshelf className="bookshelfSVG" />
+        {/* </div> */}
       </div>
     </div>
   );

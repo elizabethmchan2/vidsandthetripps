@@ -15,7 +15,7 @@ export const CDPlayer = ({ className }: { className?: string }) => {
         height="93.4343"
         fill="#1E1919"
         stroke="#3D3A3A"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <rect
         x="87.2395"

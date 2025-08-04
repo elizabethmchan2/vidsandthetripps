@@ -189,7 +189,7 @@ export const RecordArchive = ({ className }: { className?: string }) => {
         width="2.98145"
         height="104.153"
         fill="#BDAA5E"
-        fill-opacity="0.92"
+        fillOpacity="0.92"
       />
       <rect
         x="113.814"
@@ -337,7 +337,7 @@ export const RecordArchive = ({ className }: { className?: string }) => {
         width="2.98145"
         height="104.153"
         fill="#B09219"
-        fill-opacity="0.92"
+        fillOpacity="0.92"
       />
       <rect
         x="197.814"
@@ -450,7 +450,7 @@ export const RecordArchive = ({ className }: { className?: string }) => {
         width="2.98145"
         height="104.153"
         fill="#9EB7E5"
-        fill-opacity="0.466667"
+        fillOpacity="0.466667"
       />
       <rect
         x="261.814"
