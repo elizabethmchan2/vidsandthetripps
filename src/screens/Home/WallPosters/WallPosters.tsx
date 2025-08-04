@@ -69,7 +69,9 @@ const WallPosters = () => {
             <div className="albumReviewBackdrop" />
             <img src={girlOnGirl} alt="Girl on Girl by Sophie Gilbert" />
           </a>
+          {/* <a href="/zines" className="zineLibraryLink"> */}
           <ZineLibrary className="zineLibrarySVG" />
+          {/* </a> */}
         </div>
         <Bookshelf className="bookshelfSVG" />
         {/* </div> */}

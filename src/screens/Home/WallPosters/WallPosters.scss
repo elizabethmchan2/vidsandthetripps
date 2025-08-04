@@ -57,10 +57,17 @@
       align-items: end;
 
       .girlOnGirl {
+        @include hoverAnimation;
         img {
           float: right;
           width: 50px;
           height: 100%;
+        }
+      }
+
+      .zineLibraryLink {
+        .zineLibrarySVG {
+          @include hoverAnimation;
         }
       }
     }
