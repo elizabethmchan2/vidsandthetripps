@@ -1,6 +1,14 @@
 .bio {
   display: flex;
 
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    .bioLeft {
+      margin-bottom: 2rem;
+    }
+  }
+
   .bioLeft,
   .bioRight {
     flex: 50%;
