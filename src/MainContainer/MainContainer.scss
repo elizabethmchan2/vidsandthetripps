@@ -10,6 +10,7 @@
   .facePoster {
     width: 100px;
     height: 100px;
+    @include fadeInHome;
   }
 
   .navbar {
@@ -17,6 +18,7 @@
     justify-content: space-around;
     padding: 0 3rem;
     margin: 1rem 0;
+    @include fadeIn;
 
     .nav {
       display: flex;
