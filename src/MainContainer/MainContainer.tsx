@@ -56,7 +56,7 @@ const NavBar = ({
   }
 
   return (
-    <nav className="navbar">
+    <nav className="navbar navbar-mobile">
       <ul className="nav">
         <li className="nav-item">
           <a className="nav-link" href="/home">
@@ -69,7 +69,7 @@ const NavBar = ({
         {showNavMobile && (
           <div className="drawer-nav">
             <div className="drawer-nav-header">
-              <Face className="facePoster" />
+              <Face className="facePosterMobile" />
               <button
                 className="drawer-nav-close"
                 onClick={() => setShowNavMobile(false)}
