@@ -5,10 +5,11 @@ import { CDPlayer } from '../../../assets/home/CDPlayer.tsx';
 import { RecordArchive } from '../../../assets/home/RecordArchive.tsx';
 import { ZineLibrary } from '../../../assets/home/ZineLibrary.tsx';
 import girlOnGirl from '../../../assets/works/girlongirl.jpg';
+import { useWindowSize } from '@uidotdev/usehooks';
 
 import './WallPosters.scss';
 
-export const WallPoster = ({
+const WallPoster = ({
   href,
   src,
   altText,
@@ -23,15 +24,15 @@ export const WallPoster = ({
         gridArea: gridAreaName,
       }}
     >
-      <div className="albumReviewBackdrop" />
+      {/* <div className="albumReviewBackdrop" /> */}
       <img src={src} alt={altText} />
     </a>
   );
 };
 
-const WallPosters = () => {
+const WallPostersDesktop = () => {
   return (
-    <div className="wallPosters">
+    <div className="wallPostersDesktop">
       <div className="wallPosterReviews">
         {WALL_POSTER_ITEMS.map((work) => {
           if (work.type === 'album') {
@@ -75,6 +76,37 @@ const WallPosters = () => {
       </div>
     </div>
   );
+};
+
+const WallPostersMobile = () => {
+  return (
+    <div className="wallPostersMobile">
+      <div className="wallPosterReviews">
+        {WALL_POSTER_ITEMS.map((work) => {
+          if (work.type === 'album') {
+            return (
+              <WallPoster
+                key={work.key}
+                {...work.data}
+                gridAreaName={`work-item-${work.key}`}
+              />
+            );
+          }
+        })}
+      </div>
+      <Stereo />
+    </div>
+  );
+};
+
+const WallPosters = () => {
+  const size = useWindowSize();
+
+  if (size?.width && size.width >= 768) {
+    return <WallPostersDesktop />;
+  }
+
+  return <WallPostersMobile />;
 };
 
 export default WallPosters;
