@@ -4,7 +4,7 @@ const Zines = () => {
   return (
     <MainContainer>
       <div className="zines">
-        <h2> Zines </h2>
+        <h2> zines </h2>
         <section className="zinesSection">
           <div className="imagePlaceholder" />
           <h3>"Physical Media"</h3>
@@ -27,7 +27,7 @@ const Zines = () => {
 
         <section className="zinesSection">
           <div className="imagePlaceholder" />
-          <h3>"Do You Know The Raincoats"</h3>
+          <h3>"Do You Know The Raincoats?"</h3>
           <p>
             Forthcoming zine series featuring interviews with feminist punk
             bands.
