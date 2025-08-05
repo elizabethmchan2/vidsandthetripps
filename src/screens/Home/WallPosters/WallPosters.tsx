@@ -45,7 +45,6 @@ const WallPosters = () => {
           }
         })}
       </div>
-      {/* <div className="stereoAndBookshelf"> */}
       <div className="recordStand">
         <Stereo className="recordStandSVG" />
       </div>
@@ -66,15 +65,13 @@ const WallPosters = () => {
             }
             target="_blank"
           >
-            <div className="albumReviewBackdrop" />
             <img src={girlOnGirl} alt="Girl on Girl by Sophie Gilbert" />
           </a>
-          {/* <a href="/zines" className="zineLibraryLink"> */}
-          <ZineLibrary className="zineLibrarySVG" />
-          {/* </a> */}
+          <a href="/zines" className="zineLibraryLink">
+            <ZineLibrary className="zineLibrarySVG" />
+          </a>
         </div>
         <Bookshelf className="bookshelfSVG" />
-        {/* </div> */}
       </div>
     </div>
   );
