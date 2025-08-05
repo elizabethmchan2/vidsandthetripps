@@ -1,8 +1,9 @@
 import React from 'react';
 import Face from '../assets/home/Face';
-// import LeftWall from '../assets/home/LeftWall';
 import Floor from '../assets/home/Floor';
+import { useLocation } from 'react-router';
 import './MainContainer.scss';
+import classNames from 'classnames';
 
 const MainContainer = ({
   children,
@@ -11,6 +12,14 @@ const MainContainer = ({
   children: React.ReactNode;
   childrenContainerClassname?: string;
 }) => {
+  const location = useLocation();
+
+  const aClassnamesWithNavLink = (navLink: string) => {
+    return classNames('nav-link', {
+      ['nav-link-active']: location.pathname === navLink,
+    });
+  };
+
   return (
     <div className="mainContainer">
       <nav className="navbar">
@@ -21,27 +30,27 @@ const MainContainer = ({
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/home">
+            <a className={aClassnamesWithNavLink('/home')} href="/home">
               Home
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/bio">
+            <a className={aClassnamesWithNavLink('/bio')} href="/bio">
               Bio
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/writings">
+            <a className={aClassnamesWithNavLink('/writings')} href="/writings">
               Writings
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/zines">
+            <a className={aClassnamesWithNavLink('/zines')} href="/zines">
               Zines
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contact">
+            <a className={aClassnamesWithNavLink('/contact')} href="/contact">
               Contact
             </a>
           </li>
@@ -50,10 +59,7 @@ const MainContainer = ({
       <div
         className={`mainContainerChildrenContainer ${childrenContainerClassname || ''}`}
       >
-        <div className="mainContainerChildren">
-          {/* <LeftWall className="leftWall" /> */}
-          {children}
-        </div>
+        <div className="mainContainerChildren">{children}</div>
       </div>
       <footer>
         <Floor className="floor" />

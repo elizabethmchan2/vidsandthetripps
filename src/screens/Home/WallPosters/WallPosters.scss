@@ -15,14 +15,6 @@
     'wallPosterReviews wallPosterReviews wallPosterReviews bookshelf'
     'recordPlayer cdPlayerAndRecordArchive cdPlayerAndRecordArchive bookshelf';
 
-  & {
-    @include fadeIn();
-  }
-
-  // & > *:not(.recordStand, .bookshelf, .about, .wallPosterReviews) {
-  //   @include hoverAnimation;
-  // }
-
   .wallPosterReviews {
     grid-area: wallPosterReviews;
     display: grid;

@@ -21,7 +21,7 @@ export const Floor = ({ className }: { className?: string }) => {
         x2="2410.02"
         y2="91.9185"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <line
         x1="0.0219727"
@@ -29,7 +29,7 @@ export const Floor = ({ className }: { className?: string }) => {
         x2="2410.02"
         y2="73.9126"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <line
         x1="0.0219727"
@@ -37,7 +37,7 @@ export const Floor = ({ className }: { className?: string }) => {
         x2="2410.02"
         y2="55.9067"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <line
         x1="0.0220388"
@@ -45,7 +45,7 @@ export const Floor = ({ className }: { className?: string }) => {
         x2="2410.02"
         y2="37.9008"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <line
         x1="0.0219727"
@@ -53,7 +53,7 @@ export const Floor = ({ className }: { className?: string }) => {
         x2="2410.02"
         y2="19.7819"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <line
         x1="-0.378906"
@@ -61,12 +61,12 @@ export const Floor = ({ className }: { className?: string }) => {
         x2="2409.62"
         y2="1.88916"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <path
         d="M269.283 20.0818L259.842 38.0982"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <mask id="path-9-inside-1_144_466" fill="white">
         <ellipse cx="259.463" cy="32.5375" rx="0.657811" ry="0.515485" />
@@ -131,7 +131,7 @@ export const Floor = ({ className }: { className?: string }) => {
       <path
         d="M83.6788 74.0033L74.2378 92.0197"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <mask id="path-18-inside-5_144_466" fill="white">
         <ellipse cx="73.8583" cy="86.459" rx="0.657811" ry="0.515485" />
@@ -196,7 +196,7 @@ export const Floor = ({ className }: { className?: string }) => {
       <path
         d="M870.372 92.0298L860.931 110.046"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <mask id="path-27-inside-9_144_466" fill="white">
         <ellipse cx="860.551" cy="104.485" rx="0.657811" ry="0.515485" />
@@ -261,7 +261,7 @@ export const Floor = ({ className }: { className?: string }) => {
       <path
         d="M806.695 38.08L797.186 56.0767"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <mask id="path-36-inside-13_144_466" fill="white">
         <ellipse cx="797.186" cy="49.8767" rx="0.657811" ry="0.515485" />
@@ -326,7 +326,7 @@ export const Floor = ({ className }: { className?: string }) => {
       <path
         d="M2014.47 38.1067L2005.03 56.1231"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <mask id="path-45-inside-17_144_466" fill="white">
         <ellipse cx="2004.65" cy="50.5625" rx="0.657811" ry="0.515485" />
@@ -391,7 +391,7 @@ export const Floor = ({ className }: { className?: string }) => {
       <path
         d="M1216.72 2.31396L1207.28 20.3304"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <mask id="path-54-inside-21_144_466" fill="white">
         <ellipse cx="1206.9" cy="14.7698" rx="0.657811" ry="0.515485" />
@@ -456,7 +456,7 @@ export const Floor = ({ className }: { className?: string }) => {
       <path
         d="M1903.59 74.2791L1894.08 92.2757"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <mask id="path-63-inside-25_144_466" fill="white">
         <ellipse cx="1894.08" cy="86.0757" rx="0.657811" ry="0.515485" />
@@ -521,7 +521,7 @@ export const Floor = ({ className }: { className?: string }) => {
       <path
         d="M1330.47 55.8247L1320.96 73.8214"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <mask id="path-72-inside-29_144_466" fill="white">
         <ellipse cx="1320.96" cy="67.6213" rx="0.657811" ry="0.515485" />
@@ -586,7 +586,7 @@ export const Floor = ({ className }: { className?: string }) => {
       <path
         d="M518.386 56.0378L508.877 74.0345"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <mask id="path-81-inside-33_144_466" fill="white">
         <ellipse cx="508.877" cy="67.8345" rx="0.657811" ry="0.515485" />
@@ -651,7 +651,7 @@ export const Floor = ({ className }: { className?: string }) => {
       <path
         d="M1837.25 2.33374L1827.75 20.3304"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <mask id="path-90-inside-37_144_466" fill="white">
         <ellipse cx="1827.75" cy="14.1304" rx="0.657811" ry="0.515485" />
@@ -716,7 +716,7 @@ export const Floor = ({ className }: { className?: string }) => {
       <path
         d="M1633.41 19.8816L1623.9 37.8783"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <mask id="path-99-inside-41_144_466" fill="white">
         <ellipse cx="1623.9" cy="31.6782" rx="0.657811" ry="0.515485" />
@@ -781,7 +781,7 @@ export const Floor = ({ className }: { className?: string }) => {
       <path
         d="M995.041 73.99L985.532 91.9867"
         stroke="#191717"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <mask id="path-108-inside-45_144_466" fill="white">
         <ellipse cx="985.532" cy="85.7866" rx="0.657811" ry="0.515485" />

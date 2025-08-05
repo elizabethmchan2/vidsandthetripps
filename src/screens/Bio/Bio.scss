@@ -1,8 +1,5 @@
-@use '../../common.scss' as *;
-
 .bio {
   display: flex;
-  @include fadeIn;
 
   .bioLeft,
   .bioRight {
