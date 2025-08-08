@@ -144,7 +144,14 @@ const InterviewsAndProfiles = () => {
             Sophie Gilbert
           </a>
         </li>
-
+        <li>
+          <a
+            href="https://newnoisemagazine.com/interviews/the-molotovs/"
+            target="_blank"
+          >
+            The Molotovs
+          </a>
+        </li>
         <li>
           <a
             href="https://newnoisemagazine.com/interviews/the-haunt-new-addiction/"
