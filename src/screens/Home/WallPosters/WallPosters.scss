@@ -107,16 +107,6 @@
       z-index: 2;
       object-fit: cover;
     }
-
-    // .albumReviewBackdrop {
-    //   background-color: rgb(0, 0, 0, 0.3);
-    //   position: absolute;
-    //   top: 2px;
-    //   left: 2px;
-    //   height: $recordHeight;
-    //   width: $recordWidth;
-    //   z-index: 1;
-    // }
   }
 
   .recordStandSVG,
@@ -163,17 +153,12 @@
         position: relative;
         z-index: 2;
         object-fit: cover;
-      }
 
-      // .albumReviewBackdrop {
-      //   background-color: rgb(0, 0, 0, 0.3);
-      //   position: absolute;
-      //   top: 2px;
-      //   left: 2px;
-      //   height: $recordHeight;
-      //   width: $recordWidth;
-      //   z-index: 1;
-      // }
+        @media (max-width: 600px) {
+          height: 100%;
+          width: 65%;
+        }
+      }
 
       &:nth-child(1),
       &:nth-child(4) {
