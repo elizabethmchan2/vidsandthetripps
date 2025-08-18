@@ -91,13 +91,20 @@ const AlbumReviews = () => {
             Sunflower Bean, ‘Mortal Primetime’
           </a>
         </li>
-
         <li>
           <a
             href="https://newnoisemagazine.com/reviews/teaser-sweet-night-stalker/"
             target="_blank"
           >
             Teaser Sweet, ‘Night Stalker’
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/ep-review-pinknoise-humankind/"
+            target="_blank"
+          >
+            Pinknoise, 'HUMAN = KIND'
           </a>
         </li>
       </ul>
@@ -213,6 +220,30 @@ const BookReviews = () => {
           >
             Sohpie Gilbert, “How Pop Culture Turned a Generation of Women
             Against Themselves”
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/civ-a-roadies-tale/"
+            target="_blank"
+          >
+            Anthony Civarelli, "CIV: A Roadie's Tale"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/cut-and-paste-the-american-hardcore-fanzine/"
+            target="_blank"
+          >
+            Patrick Kitzel, "Cut & Paste: The American Hardcore Fanzine"
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/collected-obsession/"
+            target="_blank"
+          >
+            Ryan Bannahan, "Collected Obsession"
           </a>
         </li>
       </ul>
