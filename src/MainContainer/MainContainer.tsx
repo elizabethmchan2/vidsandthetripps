@@ -21,7 +21,7 @@ const NavBar = ({
       <nav className="navbar">
         <ul className="nav">
           <li className="nav-item">
-            <a className="nav-link" href="/home">
+            <a className="nav-link facePosterItem" href="/home">
               <Face className="facePoster" />
             </a>
           </li>
@@ -59,7 +59,7 @@ const NavBar = ({
     <nav className="navbar navbar-mobile">
       <ul className="nav">
         <li className="nav-item">
-          <a className="nav-link" href="/home">
+          <a className="nav-link facePosterItem" href="/home">
             <Face className="facePoster" />
           </a>
         </li>
