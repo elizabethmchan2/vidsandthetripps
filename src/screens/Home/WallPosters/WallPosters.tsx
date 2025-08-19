@@ -24,7 +24,6 @@ const WallPoster = ({
         gridArea: gridAreaName,
       }}
     >
-      {/* <div className="albumReviewBackdrop" /> */}
       <img src={src} alt={altText} />
     </a>
   );

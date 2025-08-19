@@ -14,10 +14,14 @@
       margin: 0;
       padding: 0;
 
-      li > a {
-        color: black;
-        &:hover {
-          text-decoration: underline;
+      li {
+        margin-bottom: 0.5rem;
+
+        a {
+          color: black;
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
     }

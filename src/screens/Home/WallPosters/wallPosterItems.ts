@@ -8,6 +8,7 @@ import skunkAnansie from '../../../assets/works/skunkAnansie.webp';
 import indigoDeSouza from '../../../assets/works/indigoDeSouza.webp';
 // import teaserSweet from '../assets/works/teaserSweet.webp';
 // import sunflowerBean from '../assets/works/sunflowerBean.webp';
+import daffo from '../../../assets/works/pest-daffo.jpg';
 
 export type AlbumData = {
   href: string;
@@ -57,13 +58,22 @@ export const WALL_POSTER_ITEMS: WallPosterType[] = [
       altText: 'LA Witch - Doggod album cover',
     },
   },
+  // {
+  //   key: 'skunk-anansie',
+  //   type: 'album',
+  //   data: {
+  //     href: 'https://newnoisemagazine.com/reviews/skunk-anansie-the-painful-truth/',
+  //     src: skunkAnansie,
+  //     altText: 'Skunk Anansie - The Painful Truth album cover',
+  //   },
+  // },
   {
-    key: 'skunk-anansie',
+    key: 'daffo',
     type: 'album',
     data: {
-      href: 'https://newnoisemagazine.com/reviews/skunk-anansie-the-painful-truth/',
-      src: skunkAnansie,
-      altText: 'Skunk Anansie - The Painful Truth album cover',
+      href: 'https://www.thelineofbestfit.com/features/interviews/daffo-is-on-the-rise-interview',
+      src: daffo,
+      altText: 'Daffo is on the rise interview',
     },
   },
   {

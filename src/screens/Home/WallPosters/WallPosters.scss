@@ -20,7 +20,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 'work-item-regina-spektor work-item-la-witch work-item-indigo work-item-skunk-anansie ';
+    grid-template-areas: 'work-item-regina-spektor work-item-la-witch work-item-indigo work-item-daffo';
 
     & > * {
       @include hoverAnimation;
@@ -131,7 +131,7 @@
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
       'work-item-regina-spektor work-item-la-witch'
-      'work-item-indigo work-item-skunk-anansie';
+      'work-item-indigo work-item-daffo';
     margin: 0 2rem 3rem;
     gap: 1rem;
 
