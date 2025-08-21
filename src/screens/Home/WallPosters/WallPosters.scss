@@ -157,6 +157,11 @@
           height: 100%;
           width: 80%;
         }
+
+        @media (max-width: 480px) {
+          height: 100%;
+          width: 90%;
+        }
       }
 
       &:nth-child(1),
@@ -174,6 +179,11 @@
     svg {
       width: 90%;
       height: 100%;
+
+      @media (max-width: 480px) {
+        height: 100%;
+        width: 60%;
+      }
     }
   }
 }
