@@ -125,6 +125,7 @@
   align-items: center;
 
   .wallPosterReviews {
+    flex: 60%;
     grid-area: wallPosterReviews;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -144,11 +145,9 @@
       width: 100%;
       position: relative;
 
-      $recordHeight: 100%;
-      $recordWidth: 50%;
       img {
-        height: $recordHeight;
-        width: $recordWidth;
+        height: 100%;
+        width: 60%;
         box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.2);
         position: relative;
         z-index: 2;
@@ -156,7 +155,7 @@
 
         @media (max-width: 600px) {
           height: 100%;
-          width: 65%;
+          width: 80%;
         }
       }
 
@@ -165,6 +164,16 @@
         display: flex;
         justify-content: flex-end;
       }
+    }
+  }
+
+  .stereoMobile {
+    display: flex;
+    justify-content: center;
+
+    svg {
+      width: 90%;
+      height: 100%;
     }
   }
 }

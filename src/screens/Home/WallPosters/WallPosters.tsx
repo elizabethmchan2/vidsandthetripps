@@ -93,7 +93,9 @@ const WallPostersMobile = () => {
           }
         })}
       </div>
-      <Stereo />
+      <div className="stereoMobile">
+        <Stereo />
+      </div>
     </div>
   );
 };
