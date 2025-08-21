@@ -8,52 +8,16 @@ import { useWindowSize } from '@uidotdev/usehooks';
 import { Hamburger } from '../assets/nav/Hamburger';
 import { Bookshelf } from '../assets/home/Bookshelf';
 
-const NavBar = ({
-  aClassnamesWithNavLink,
-}: {
-  aClassnamesWithNavLink: (val: string) => string;
-}) => {
-  const size = useWindowSize();
-  const [showNavMobile, setShowNavMobile] = useState(false);
+const NavBarMobile = () => {
+  const location = useLocation();
 
-  if (size?.width && size.width >= 768) {
-    return (
-      <nav className="navbar">
-        <ul className="nav">
-          <li className="nav-item">
-            <a className="nav-link facePosterItem" href="/home">
-              <Face className="facePoster" />
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className={aClassnamesWithNavLink('/home')} href="/home">
-              Home
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className={aClassnamesWithNavLink('/bio')} href="/bio">
-              Bio
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className={aClassnamesWithNavLink('/writings')} href="/writings">
-              Writings
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className={aClassnamesWithNavLink('/zines')} href="/zines">
-              Zines
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className={aClassnamesWithNavLink('/contact')} href="/contact">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
-    );
-  }
+  const aClassnamesWithNavLink = (navLink: string) => {
+    return classNames('nav-link', {
+      ['nav-link-active']: location.pathname === navLink,
+    });
+  };
+
+  const [showNavMobile, setShowNavMobile] = useState(false);
 
   return (
     <nav className="navbar navbar-mobile">
@@ -121,13 +85,7 @@ const NavBar = ({
   );
 };
 
-const MainContainer = ({
-  children,
-  childrenContainerClassname,
-}: {
-  children: React.ReactNode;
-  childrenContainerClassname?: string;
-}) => {
+const NavBarDesktop = () => {
   const location = useLocation();
 
   const aClassnamesWithNavLink = (navLink: string) => {
@@ -137,8 +95,63 @@ const MainContainer = ({
   };
 
   return (
+    <nav className="navbar">
+      <ul className="nav">
+        <li className="nav-item">
+          <a className="nav-link facePosterItem" href="/home">
+            <Face className="facePoster" />
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className={aClassnamesWithNavLink('/home')} href="/home">
+            Home
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className={aClassnamesWithNavLink('/bio')} href="/bio">
+            Bio
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className={aClassnamesWithNavLink('/writings')} href="/writings">
+            Writings
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className={aClassnamesWithNavLink('/zines')} href="/zines">
+            Zines
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className={aClassnamesWithNavLink('/contact')} href="/contact">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
+};
+
+const NavBar = () => {
+  const size = useWindowSize();
+
+  if (size?.width && size.width >= 768) {
+    return <NavBarDesktop />;
+  }
+
+  return <NavBarMobile />;
+};
+
+const MainContainer = ({
+  children,
+  childrenContainerClassname,
+}: {
+  children: React.ReactNode;
+  childrenContainerClassname?: string;
+}) => {
+  return (
     <div className="mainContainer">
-      <NavBar aClassnamesWithNavLink={aClassnamesWithNavLink} />
+      <NavBar />
       <div
         className={`mainContainerChildrenContainer ${childrenContainerClassname || ''}`}
       >
