@@ -8,10 +8,26 @@ const AlbumReviews = () => {
       <ul className="sectionList">
         <li>
           <a
+            href="https://newnoisemagazine.com/reviews/hunx-and-his-punx-walk-out-on-this-world/"
+            target="_blank"
+          >
+            Hunx and His Punx, 'Walk Out On This World'
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/nova-twins-parasites-butterflies/"
+            target="_blank"
+          >
+            Nova Twins, 'Parasites & Butterflies'
+          </a>
+        </li>
+        <li>
+          <a
             href="https://ourculturemag.com/2025/04/05/album-review-l-a-witch-doggod/"
             target="_blank"
           >
-            L.A. Witch, DOGGOD
+            L.A. Witch, 'DOGGOD'
           </a>
         </li>
         <li>
@@ -105,32 +121,6 @@ const AlbumReviews = () => {
             target="_blank"
           >
             Pinknoise, 'HUMAN = KIND'
-          </a>
-        </li>
-      </ul>
-    </section>
-  );
-};
-
-const Listicles = () => {
-  return (
-    <section className="writingsSection">
-      <h2> Listicles </h2>
-      <ul className="sectionList">
-        <li>
-          <a
-            href="https://ourculturemag.com/2025/05/21/vinyl-reissues-10-essential-regina-spektor-songs/"
-            target="_blank"
-          >
-            10 Essential Regina Spektor Songs
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://ourculturemag.com/2025/07/29/9-critical-madonna-songs/"
-            target="_blank"
-          >
-            9 Critical Madonna Songs
           </a>
         </li>
       </ul>
@@ -269,15 +259,41 @@ const LiveShowReviews = () => {
   );
 };
 
+const Listicles = () => {
+  return (
+    <section className="writingsSection">
+      <h2> Listicles </h2>
+      <ul className="sectionList">
+        <li>
+          <a
+            href="https://ourculturemag.com/2025/05/21/vinyl-reissues-10-essential-regina-spektor-songs/"
+            target="_blank"
+          >
+            10 Essential Regina Spektor Songs
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://ourculturemag.com/2025/07/29/9-critical-madonna-songs/"
+            target="_blank"
+          >
+            9 Critical Madonna Songs
+          </a>
+        </li>
+      </ul>
+    </section>
+  );
+};
+
 const Writings = () => {
   return (
     <MainContainer>
       <div className="writings">
         <AlbumReviews />
-        <Listicles />
         <InterviewsAndProfiles />
         <BookReviews />
         <LiveShowReviews />
+        <Listicles />
       </div>
     </MainContainer>
   );
