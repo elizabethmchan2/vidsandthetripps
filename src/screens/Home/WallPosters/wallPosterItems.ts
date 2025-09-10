@@ -5,7 +5,7 @@ import reginaSpektor from '../../../assets/works/reginaSpektor.webp';
 // import skunkAnansie from '../../../assets/works/skunkAnansie.webp';
 // import bruit from '../assets/works/bruit.webp';
 // import spillTab from '../assets/works/spillTab.webp';
-import indigoDeSouza from '../../../assets/works/indigoDeSouza.webp';
+// import indigoDeSouza from '../../../assets/works/indigoDeSouza.webp';
 // import teaserSweet from '../assets/works/teaserSweet.webp';
 // import sunflowerBean from '../assets/works/sunflowerBean.webp';
 import daffo from '../../../assets/works/pest-daffo.jpg';
