@@ -134,6 +134,9 @@ const InterviewsAndProfiles = () => {
       <h2> Interviews/Profiles </h2>
       <ul className="sectionList">
         <li>
+          <a href="/zines">Frightwig</a>
+        </li>
+        <li>
           <a
             href="https://ourculturemag.com/2025/04/26/author-spotlight-sophie-gilbert/"
             target="_blank"
@@ -205,10 +208,19 @@ const BookReviews = () => {
       <ul className="sectionList">
         <li>
           <a
+            href="https://ourculturemag.com/2025/09/08/book-review-liz-pelly-mood-machine-the-rise-of-spotify-and-the-costs-of-the-perfect-playlist/"
+            target="_blank"
+          >
+            Liz Pelly, "Mood Machine: The Rise of Spotify and the Costs of the
+            Perfect Playlist"
+          </a>
+        </li>
+        <li>
+          <a
             href="https://ourculturemag.com/2025/04/29/book-review-sophie-gilbert-girl-on-girl-how-pop-culture-turned-a-generation-of-women-against-themselves/"
             target="_blank"
           >
-            Sohpie Gilbert, “How Pop Culture Turned a Generation of Women
+            Sophie Gilbert, “How Pop Culture Turned a Generation of Women
             Against Themselves”
           </a>
         </li>

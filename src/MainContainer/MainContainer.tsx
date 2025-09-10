@@ -23,7 +23,7 @@ const NavBarMobile = () => {
     <nav className="navbar navbar-mobile">
       <ul className="nav">
         <li className="nav-item">
-          <a className="nav-link facePosterItem" href="/home">
+          <a className="nav-link facePosterItem" href="/">
             <Face className="facePoster" />
           </a>
         </li>
@@ -98,7 +98,7 @@ const NavBarDesktop = () => {
     <nav className="navbar">
       <ul className="nav">
         <li className="nav-item">
-          <a className="nav-link facePosterItem" href="/home">
+          <a className="nav-link facePosterItem" href="/">
             <Face className="facePoster" />
           </a>
         </li>

@@ -20,7 +20,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 'work-item-regina-spektor work-item-la-witch work-item-indigo work-item-daffo';
+    grid-template-areas: 'work-item-regina-spektor work-item-la-witch work-item-hunx-and-his-punks work-item-daffo';
 
     & > * {
       @include hoverAnimation;
@@ -50,6 +50,16 @@
       margin-bottom: -0.1rem;
 
       .girlOnGirl {
+        width: 20%;
+        @include hoverAnimation;
+        img {
+          float: right;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .moodMachine {
         width: 20%;
         @include hoverAnimation;
         img {
@@ -132,7 +142,7 @@
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
       'work-item-regina-spektor work-item-la-witch'
-      'work-item-indigo work-item-daffo';
+      'work-item-hunx-and-his-punks work-item-daffo';
     margin: 0 2rem 3rem;
     gap: 1rem;
 

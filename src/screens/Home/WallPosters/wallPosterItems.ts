@@ -9,6 +9,7 @@ import indigoDeSouza from '../../../assets/works/indigoDeSouza.webp';
 // import teaserSweet from '../assets/works/teaserSweet.webp';
 // import sunflowerBean from '../assets/works/sunflowerBean.webp';
 import daffo from '../../../assets/works/pest-daffo.jpg';
+import hunxAndHisPunxImage from '../../../assets/works/hunxandhispunx.webp';
 
 export type AlbumData = {
   href: string;
@@ -77,14 +78,23 @@ export const WALL_POSTER_ITEMS: WallPosterType[] = [
     },
   },
   {
-    key: 'indigo',
+    key: 'hunx-and-his-punks',
     type: 'album',
     data: {
-      href: 'https://ourculturemag.com/2025/07/24/album-review-indigo-de-souza-precipice/',
-      src: indigoDeSouza,
-      altText: 'Indigo De Souza - Precipice',
+      href: 'https://newnoisemagazine.com/reviews/hunx-and-his-punx-walk-out-on-this-world/',
+      src: hunxAndHisPunxImage,
+      altText: 'Hunx and His Punx - Walk Out On This World album cover',
     },
   },
+  // {
+  //   key: 'indigo',
+  //   type: 'album',
+  //   data: {
+  //     href: 'https://ourculturemag.com/2025/07/24/album-review-indigo-de-souza-precipice/',
+  //     src: indigoDeSouza,
+  //     altText: 'Indigo De Souza - Precipice',
+  //   },
+  // },
   // {
   //   key: 'garbage',
   //   type: 'album',

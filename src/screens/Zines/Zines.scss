@@ -1,11 +1,33 @@
 .zines {
-  .zinesSection {
-    margin-bottom: 1rem;
-  }
+  .zinesContainer {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem;
 
-  .imagePlaceholder {
-    width: 245px;
-    height: 330px;
-    background-color: black;
+    @media (max-width: 1024px) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 3rem;
+    }
+
+    .zinesSection {
+    }
+
+    .imagePlaceholder {
+      width: 245px;
+      height: 330px;
+      background-color: black;
+    }
+
+    .zineCover {
+      height: 330px;
+    }
   }
 }

@@ -6,6 +6,7 @@ import { RecordArchive } from '../../../assets/home/RecordArchive.tsx';
 import { ZineLibrary } from '../../../assets/home/ZineLibrary.tsx';
 import girlOnGirl from '../../../assets/works/girlongirl.jpg';
 import { useWindowSize } from '@uidotdev/usehooks';
+import moodMachine from '../../../assets/works/moodMachine.webp';
 
 import './WallPosters.scss';
 
@@ -66,6 +67,18 @@ const WallPostersDesktop = () => {
             target="_blank"
           >
             <img src={girlOnGirl} alt="Girl on Girl by Sophie Gilbert" />
+          </a>
+          <a
+            className="moodMachine"
+            href={
+              'https://ourculturemag.com/2025/09/08/book-review-liz-pelly-mood-machine-the-rise-of-spotify-and-the-costs-of-the-perfect-playlist/'
+            }
+            target="_blank"
+          >
+            <img
+              src={moodMachine}
+              alt="‘Mood Machine: The Rise of Spotify and the Costs of the Perfect Playlist’ by Liz Pelly"
+            />
           </a>
           <a href="/zines" className="zineLibraryLink">
             <ZineLibrary className="zineLibrarySVG" />
