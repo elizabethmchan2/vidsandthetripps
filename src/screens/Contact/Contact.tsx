@@ -8,11 +8,21 @@ const Contact = () => {
       <div className="contact">
         <p className="email">
           Email:{' '}
-          <a href="mailto:vida.hasson@gmail.com">vida.hasson@gmail.com</a>
+          <a href="mailto:vida.hasson@gmail.com" className="emailLink">
+            vida.hasson@gmail.com
+          </a>
         </p>
         <p>
-          If you would like to receive Vida's latest zines, please send her an
-          email.
+          {' '}
+          To receive any of these zines, please fill out this{' '}
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSf87A1ExToej_Bi_I1tVo-dNmBYm2NR-V8KcQjOJmsEzFtc2A/viewform"
+            target="_blank"
+          >
+            {' '}
+            form
+          </a>
+          .
         </p>
         <img src={BioHeadshot} alt="portrait of Vida Hasson" />
       </div>
