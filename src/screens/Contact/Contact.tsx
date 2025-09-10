@@ -14,7 +14,7 @@ const Contact = () => {
         </p>
         <p>
           {' '}
-          To receive any of these zines, please fill out this{' '}
+          To receive any of Vida's zines, please fill out this{' '}
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSf87A1ExToej_Bi_I1tVo-dNmBYm2NR-V8KcQjOJmsEzFtc2A/viewform"
             target="_blank"
