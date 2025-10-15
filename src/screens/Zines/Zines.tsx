@@ -68,7 +68,7 @@ const Zines = () => {
               and feeling like you belong, even though you don’t know anyone
               there. In her case, she saw G.L.O.S.S., Scowl, Bratmobile, and
               Madonna shirts and knew she was with her people. And because I was
-              wearing a Night Court tee, now we’re friends! –
+              wearing a Night Court tee, now we’re friends!" –
               <a href="https://razorcake.org/shirts-i-saw-at-mosswood-meltdown-2025-5%C2%BD-x-81%C2%BD-color-copy-20-pgs/">
                 Martin Wong
               </a>
