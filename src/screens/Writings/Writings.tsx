@@ -134,6 +134,14 @@ const InterviewsAndProfiles = () => {
       <h2> Interviews/Profiles </h2>
       <ul className="sectionList">
         <li>
+          <a
+            href="https://newnoisemagazine.com/interviews/weakened-friends-feels-like-hell/"
+            target="_blank"
+          >
+            Weakened Friends
+          </a>
+        </li>
+        <li>
           <a href="/zines">Frightwig</a>
         </li>
         <li>
@@ -206,6 +214,14 @@ const BookReviews = () => {
     <section className="writingsSection">
       <h2> Book Reviews </h2>
       <ul className="sectionList">
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/cristy-road-carrera-sink-or-burn/"
+            target="_blank"
+          >
+            Cristy Road Carrera, "Sink or Burn"
+          </a>
+        </li>
         <li>
           <a
             href="https://ourculturemag.com/2025/09/08/book-review-liz-pelly-mood-machine-the-rise-of-spotify-and-the-costs-of-the-perfect-playlist/"

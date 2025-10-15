@@ -62,8 +62,16 @@ const Zines = () => {
             />
             <h2>"Shirts I saw at Mosswood Meltdown"</h2>
             <p>
-              Polaroid photos of shirts I saw at Oakland's punk rock music
-              festival Mosswood Meltdown with humorous commentary.
+              "This humble zine encapsulates so much of what I love about the
+              DIY punk scene...Vida’s colorful photos and hand-scribbled,
+              stream-of-conscious captions capture the magic of going to a show
+              and feeling like you belong, even though you don’t know anyone
+              there. In her case, she saw G.L.O.S.S., Scowl, Bratmobile, and
+              Madonna shirts and knew she was with her people. And because I was
+              wearing a Night Court tee, now we’re friends! –
+              <a href="https://razorcake.org/shirts-i-saw-at-mosswood-meltdown-2025-5%C2%BD-x-81%C2%BD-color-copy-20-pgs/">
+                Martin Wong
+              </a>
             </p>
           </section>
 
