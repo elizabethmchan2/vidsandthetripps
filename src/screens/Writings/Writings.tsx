@@ -1,138 +1,19 @@
 import MainContainer from '../../MainContainer/MainContainer';
 import './Writings.scss';
 
-const AlbumReviews = () => {
-  return (
-    <section className="writingsSection">
-      <h2> Album Reviews </h2>
-      <ul className="sectionList">
-        <li>
-          <a
-            href="https://newnoisemagazine.com/reviews/hunx-and-his-punx-walk-out-on-this-world/"
-            target="_blank"
-          >
-            Hunx and His Punx, 'Walk Out On This World'
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://newnoisemagazine.com/reviews/nova-twins-parasites-butterflies/"
-            target="_blank"
-          >
-            Nova Twins, 'Parasites & Butterflies'
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://ourculturemag.com/2025/04/05/album-review-l-a-witch-doggod/"
-            target="_blank"
-          >
-            L.A. Witch, 'DOGGOD'
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://ourculturemag.com/2025/06/16/album-review-pixel-grip-percepticide-the-death-of-reality/"
-            target="_blank"
-          >
-            Pixel Grip, ‘Percepticide: The Death of Reality’
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://ourculturemag.com/2025/07/24/album-review-indigo-de-souza-precipice/"
-            target="_blank"
-          >
-            Indigo De Souza, ‘Precipice’
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://newnoisemagazine.com/reviews/album-review-sea-lemon-diving-for-a-prize/"
-            target="_blank"
-          >
-            Sea Lemon, ‘Diving For A Prize’
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://newnoisemagazine.com/reviews/skunk-anansie-the-painful-truth/"
-            target="_blank"
-          >
-            Skunk Anansie, ‘The Painful Truth’
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="https://newnoisemagazine.com/reviews/ep-review-blackwater-holylight-if-you-only-knew//"
-            target="_blank"
-          >
-            Blackwater Holylight, ‘If You Only Knew’
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="https://newnoisemagazine.com/reviews/spill-tab-angie/"
-            target="_blank"
-          >
-            Spill Tab, ‘Angie’
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="https://newnoisemagazine.com/reviews/bruit-%E2%89%A4-the-age-of-ephemerality/"
-            target="_blank"
-          >
-            BRUIT ≤, ‘The Age of Epheremality’
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="https://ourculturemag.com/2025/05/30/album-review-garbage-let-all-that-we-imagine-be-the-light/"
-            target="_blank"
-          >
-            Garbage, ‘Let All That We Imagine Be The Light’
-          </a>
-        </li>
-
-        <li>
-          <a
-            href="https://newnoisemagazine.com/reviews/sunflower-bean-mortal-primetime/"
-            target="_blank"
-          >
-            Sunflower Bean, ‘Mortal Primetime’
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://newnoisemagazine.com/reviews/teaser-sweet-night-stalker/"
-            target="_blank"
-          >
-            Teaser Sweet, ‘Night Stalker’
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://newnoisemagazine.com/reviews/ep-review-pinknoise-humankind/"
-            target="_blank"
-          >
-            Pinknoise, 'HUMAN = KIND'
-          </a>
-        </li>
-      </ul>
-    </section>
-  );
-};
-
 const InterviewsAndProfiles = () => {
   return (
     <section className="writingsSection">
       <h2> Interviews/Profiles </h2>
       <ul className="sectionList">
+        <li>
+          <a
+            href="https://newnoisemagazine.com/interviews/cristy-road-carrera-sink-or-burn/"
+            target="_blank"
+          >
+            Cristy Road Carrera
+          </a>
+        </li>
         <li>
           <a
             href="https://newnoisemagazine.com/interviews/weakened-friends-feels-like-hell/"
@@ -269,10 +150,137 @@ const BookReviews = () => {
   );
 };
 
-const LiveShowReviews = () => {
+const AlbumReviews = () => {
   return (
     <section className="writingsSection">
-      <h2> Live Show Reviews </h2>
+      <h2> Album Reviews </h2>
+      <ul className="sectionList">
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/hunx-and-his-punx-walk-out-on-this-world/"
+            target="_blank"
+          >
+            Hunx and His Punx, 'Walk Out On This World'
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/nova-twins-parasites-butterflies/"
+            target="_blank"
+          >
+            Nova Twins, 'Parasites & Butterflies'
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://ourculturemag.com/2025/04/05/album-review-l-a-witch-doggod/"
+            target="_blank"
+          >
+            L.A. Witch, 'DOGGOD'
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://ourculturemag.com/2025/06/16/album-review-pixel-grip-percepticide-the-death-of-reality/"
+            target="_blank"
+          >
+            Pixel Grip, ‘Percepticide: The Death of Reality’
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://ourculturemag.com/2025/07/24/album-review-indigo-de-souza-precipice/"
+            target="_blank"
+          >
+            Indigo De Souza, ‘Precipice’
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/album-review-sea-lemon-diving-for-a-prize/"
+            target="_blank"
+          >
+            Sea Lemon, ‘Diving For A Prize’
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/skunk-anansie-the-painful-truth/"
+            target="_blank"
+          >
+            Skunk Anansie, ‘The Painful Truth’
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/ep-review-blackwater-holylight-if-you-only-knew//"
+            target="_blank"
+          >
+            Blackwater Holylight, ‘If You Only Knew’
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/spill-tab-angie/"
+            target="_blank"
+          >
+            Spill Tab, ‘Angie’
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/bruit-%E2%89%A4-the-age-of-ephemerality/"
+            target="_blank"
+          >
+            BRUIT ≤, ‘The Age of Epheremality’
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://ourculturemag.com/2025/05/30/album-review-garbage-let-all-that-we-imagine-be-the-light/"
+            target="_blank"
+          >
+            Garbage, ‘Let All That We Imagine Be The Light’
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/sunflower-bean-mortal-primetime/"
+            target="_blank"
+          >
+            Sunflower Bean, ‘Mortal Primetime’
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/teaser-sweet-night-stalker/"
+            target="_blank"
+          >
+            Teaser Sweet, ‘Night Stalker’
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://newnoisemagazine.com/reviews/ep-review-pinknoise-humankind/"
+            target="_blank"
+          >
+            Pinknoise, 'HUMAN = KIND'
+          </a>
+        </li>
+      </ul>
+    </section>
+  );
+};
+
+const Articles = () => {
+  return (
+    <section className="writingsSection">
+      <h2> articles </h2>
       <ul className="sectionList">
         <li>
           <a
@@ -282,16 +290,6 @@ const LiveShowReviews = () => {
             Frightwig, Sapphic Musk, Quaaludes @ 4 Star Theatre, San Francisco
           </a>
         </li>
-      </ul>
-    </section>
-  );
-};
-
-const Listicles = () => {
-  return (
-    <section className="writingsSection">
-      <h2> Listicles </h2>
-      <ul className="sectionList">
         <li>
           <a
             href="https://ourculturemag.com/2025/05/21/vinyl-reissues-10-essential-regina-spektor-songs/"
@@ -317,11 +315,10 @@ const Writings = () => {
   return (
     <MainContainer>
       <div className="writings">
-        <AlbumReviews />
         <InterviewsAndProfiles />
         <BookReviews />
-        <LiveShowReviews />
-        <Listicles />
+        <AlbumReviews />
+        <Articles />
       </div>
     </MainContainer>
   );

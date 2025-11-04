@@ -50,7 +50,7 @@ const Zines = () => {
             <p>
               Guide on how to stop streaming music and enter the world of
               physical media. Available at: Elliot Bay Books, Charlie's Queer
-              Books, Green Apple (Clement St.), Green Apple (9th Ave)
+              Books, Green Apple (Clement St.), Green Apple (9th Ave).
             </p>
           </section>
 
@@ -82,7 +82,7 @@ const Zines = () => {
               alt='Cover of "Vids and The Tripps" by Vida Hasson'
             />
             <h2>"Vids and the Tripps"</h2>
-            <h3>issues #1 - #6 from May 2023-February 2024</h3>
+            <h3>Issues #1 - #6 from May 2023-February 2024</h3>
             <p>
               Personal zine including album reviews, music scene commentary,
               stories, the occasional screenplay, and a moment of flash fiction.
