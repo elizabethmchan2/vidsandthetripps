@@ -8,7 +8,8 @@ import reginaSpektor from '../../../assets/works/reginaSpektor.webp';
 // import indigoDeSouza from '../../../assets/works/indigoDeSouza.webp';
 // import teaserSweet from '../assets/works/teaserSweet.webp';
 // import sunflowerBean from '../assets/works/sunflowerBean.webp';
-import daffo from '../../../assets/works/pest-daffo.jpg';
+// import daffo from '../../../assets/works/pest-daffo.jpg';
+import allisonWolfe from '../../../assets/works/allisonWolfe.jpg';
 import hunxAndHisPunxImage from '../../../assets/works/hunxandhispunx.webp';
 
 export type AlbumData = {
@@ -69,12 +70,12 @@ export const WALL_POSTER_ITEMS: WallPosterType[] = [
   //   },
   // },
   {
-    key: 'daffo',
+    key: 'allison-wolfe',
     type: 'album',
     data: {
-      href: 'https://www.thelineofbestfit.com/features/interviews/daffo-is-on-the-rise-interview',
-      src: daffo,
-      altText: 'Daffo is on the rise interview',
+      href: 'https://www.thelineofbestfit.com/features/interviews/bratmobile-allison-wolfe-real-janelle',
+      src: allisonWolfe,
+      altText: 'Allison wolfe talks the real janelle reissue',
     },
   },
   {

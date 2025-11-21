@@ -8,6 +8,14 @@ const InterviewsAndProfiles = () => {
       <ul className="sectionList">
         <li>
           <a
+            href="https://www.thelineofbestfit.com/features/interviews/bratmobile-allison-wolfe-real-janelle"
+            target="_blank"
+          >
+            Allison Wolfe
+          </a>
+        </li>
+        <li>
+          <a
             href="https://newnoisemagazine.com/interviews/cristy-road-carrera-sink-or-burn/"
             target="_blank"
           >

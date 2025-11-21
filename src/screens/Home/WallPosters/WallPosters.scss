@@ -20,7 +20,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 'work-item-regina-spektor work-item-la-witch work-item-hunx-and-his-punks work-item-daffo';
+    grid-template-areas: 'work-item-regina-spektor work-item-la-witch work-item-hunx-and-his-punks work-item-allison-wolfe';
 
     & > * {
       @include hoverAnimation;
@@ -142,7 +142,7 @@
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
       'work-item-regina-spektor work-item-la-witch'
-      'work-item-hunx-and-his-punks work-item-daffo';
+      'work-item-hunx-and-his-punks work-item-allison-wolfe';
     margin: 0 2rem 3rem;
     gap: 1rem;
 
