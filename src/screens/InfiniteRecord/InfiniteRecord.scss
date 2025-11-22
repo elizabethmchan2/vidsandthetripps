@@ -22,7 +22,9 @@
   }
 
   .enterButton {
+    transition: opacity ease-out 500ms;
     color: white;
+    width: 90px;
 
     &:hover {
       color: #da0a79;
@@ -30,7 +32,6 @@
   }
 
   .hideButton {
-    transition: opacity ease-out 500ms;
     opacity: 0%;
     pointer-events: none;
   }
