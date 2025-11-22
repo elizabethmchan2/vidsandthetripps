@@ -21,6 +21,14 @@
     }
   }
 
+  .enterButton {
+    color: white;
+
+    &:hover {
+      color: #da0a79;
+    }
+  }
+
   .hideButton {
     transition: opacity ease-out 500ms;
     opacity: 0%;

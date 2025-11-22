@@ -38,7 +38,7 @@ const InfiniteRecord = () => {
         onClick={onClick}
         disabled={!showButton}
         tabIndex={showButton ? 0 : -1}
-        className={classNames({ ['hideButton']: !showButton })}
+        className={classNames('enterButton', { ['hideButton']: !showButton })}
       >
         enter
       </button>
