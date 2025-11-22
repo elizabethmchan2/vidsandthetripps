@@ -2,12 +2,13 @@ import { Platter } from '../assets/infiniteLoader/Platter';
 import { Record } from '../assets/infiniteLoader/Record';
 import { RecordContrast } from '../assets/infiniteLoader/RecordContrast';
 import { Tonearm } from '../assets/infiniteLoader/Tonearm';
+import classNames from 'classnames';
 import './Loader.scss';
 
 // TODO: fix css modules
-const Loader = () => {
+const Loader = ({ shouldStartSpinning }: { shouldStartSpinning?: boolean }) => {
   return (
-    <div className="loading">
+    <div className={classNames('loading', { animate: shouldStartSpinning })}>
       <div className="wrapper">
         <Record className="record" />
         <Platter className="platter" />
