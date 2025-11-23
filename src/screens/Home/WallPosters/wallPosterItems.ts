@@ -1,7 +1,7 @@
-import ourCultureImage from '../../../assets/works/OurCultureLAWitch.webp';
+import ourCultureImage from '../../../assets/works/ourCultureLAWitch.webp';
 import reginaSpektor from '../../../assets/works/reginaSpektor.webp';
 // import garbage from '../assets/works/garbage.webp';
-// import blackWaterHolyLightImage from '../assets/works/NewNoiseBlackwaterHolylight.webp';
+// import blackWaterHolyLightImage from '../assets/works/newNoiseBlackwaterHolylight.webp';
 // import skunkAnansie from '../../../assets/works/skunkAnansie.webp';
 // import bruit from '../assets/works/bruit.webp';
 // import spillTab from '../assets/works/spillTab.webp';

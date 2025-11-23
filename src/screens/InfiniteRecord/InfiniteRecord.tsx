@@ -25,7 +25,7 @@ const InfiniteRecord = () => {
     setShowButton(false);
     const changeRoute = window.setInterval(() => {
       navigate('/home');
-    }, 5000);
+    }, 4500);
     routeChangeRef.current = changeRoute;
   };
 
