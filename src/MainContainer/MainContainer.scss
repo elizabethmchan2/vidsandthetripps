@@ -26,10 +26,10 @@
       flex-grow: 1;
       padding: 0;
 
-      .nav-item {
+      .navItem {
         list-style-type: none;
 
-        .nav-link {
+        .navLink {
           color: black;
           font-size: 1.25rem;
           text-transform: lowercase;
@@ -39,7 +39,7 @@
           }
         }
 
-        .nav-link-active {
+        .navLinkActive {
           text-decoration: underline;
         }
       }
@@ -69,14 +69,20 @@
     flex-direction: column;
   }
 
-  .navbar-mobile {
+  .navbarMobile {
     padding: 0 1.5rem;
 
-    .hamburger {
+    .drawerNavOpen,
+    .drawerNavClose {
       background-color: transparent;
+      width: 80px;
     }
 
-    .drawer-nav {
+    .drawerNavClose > svg {
+      margin-top: 10px;
+    }
+
+    .drawerNav {
       position: fixed;
       bottom: 0;
       z-index: 1000;
@@ -93,27 +99,25 @@
         height: 100px;
       }
 
-      .drawer-nav-header {
+      .drawerNavHeader {
         display: flex;
         justify-content: space-between;
         margin: 1rem 1.5rem 0;
 
-        .drawer-nav-close {
-          width: 50px;
-          margin-left: auto;
+        .drawerNavClose {
           background-color: transparent;
         }
       }
 
-      .drawer-nav-list {
+      .drawerNavList {
         display: flex;
         align-items: center;
         flex-direction: column;
 
-        .nav-item {
+        .navItem {
           margin-bottom: 1rem;
 
-          .nav-link {
+          .navLink {
             font-size: 2rem;
 
             &:not(.facePosterItem) {
@@ -123,7 +127,7 @@
         }
       }
 
-      .drawer-footer {
+      .drawerFooter {
         display: flex;
         align-items: center;
         justify-content: flex-start;

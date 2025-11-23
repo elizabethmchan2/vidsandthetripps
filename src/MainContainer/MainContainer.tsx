@@ -7,52 +7,56 @@ import classNames from 'classnames';
 import { useWindowSize } from '@uidotdev/usehooks';
 import { Hamburger } from '../assets/nav/Hamburger';
 import { Bookshelf } from '../assets/home/Bookshelf';
+import { Close } from '../assets/nav/Close';
 
 const NavBarMobile = () => {
   const location = useLocation();
 
   const aClassnamesWithNavLink = (navLink: string) => {
-    return classNames('nav-link', {
-      ['nav-link-active']: location.pathname === navLink,
+    return classNames('navLink', {
+      ['navLinkActive']: location.pathname === navLink,
     });
   };
 
   const [showNavMobile, setShowNavMobile] = useState(false);
 
   return (
-    <nav className="navbar navbar-mobile">
+    <nav className="navbar navbarMobile">
       <ul className="nav">
-        <li className="nav-item">
-          <a className="nav-link facePosterItem" href="/">
+        <li className="navItem">
+          <a className="navLink facePosterItem" href="/">
             <Face className="facePoster" />
           </a>
         </li>
-        <button className="hamburger" onClick={() => setShowNavMobile(true)}>
+        <button
+          className="drawerNavOpen"
+          onClick={() => setShowNavMobile(true)}
+        >
           <Hamburger />
         </button>
         {showNavMobile && (
-          <div className="drawer-nav">
-            <div className="drawer-nav-header">
+          <div className="drawerNav">
+            <div className="drawerNavHeader">
               <Face className="facePosterMobile" />
               <button
-                className="drawer-nav-close"
+                className="drawerNavClose"
                 onClick={() => setShowNavMobile(false)}
               >
-                X
+                <Close />
               </button>
             </div>
-            <ul className="drawer-nav-list">
-              <li className="nav-item">
+            <ul className="drawerNavList">
+              <li className="navItem">
                 <a className={aClassnamesWithNavLink('/home')} href="/home">
                   Home
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="navItem">
                 <a className={aClassnamesWithNavLink('/bio')} href="/bio">
                   Bio
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="navItem">
                 <a
                   className={aClassnamesWithNavLink('/writings')}
                   href="/writings"
@@ -60,12 +64,12 @@ const NavBarMobile = () => {
                   Writings
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="navItem">
                 <a className={aClassnamesWithNavLink('/zines')} href="/zines">
                   Zines
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="navItem">
                 <a
                   className={aClassnamesWithNavLink('/contact')}
                   href="/contact"
@@ -74,7 +78,7 @@ const NavBarMobile = () => {
                 </a>
               </li>
             </ul>
-            <div className="drawer-footer">
+            <div className="drawerFooter">
               <Bookshelf className="bookshelf" />
               <Floor className="floor" />
             </div>
@@ -89,40 +93,40 @@ const NavBarDesktop = () => {
   const location = useLocation();
 
   const aClassnamesWithNavLink = (navLink: string) => {
-    return classNames('nav-link', {
-      ['nav-link-active']: location.pathname === navLink,
+    return classNames('navLink', {
+      ['navLinkActive']: location.pathname === navLink,
     });
   };
 
   return (
     <nav className="navbar">
       <ul className="nav">
-        <li className="nav-item">
-          <a className="nav-link facePosterItem" href="/">
+        <li className="navItem">
+          <a className="navLink facePosterItem" href="/">
             <Face className="facePoster" />
           </a>
         </li>
-        <li className="nav-item">
+        <li className="navItem">
           <a className={aClassnamesWithNavLink('/home')} href="/home">
             Home
           </a>
         </li>
-        <li className="nav-item">
+        <li className="navItem">
           <a className={aClassnamesWithNavLink('/bio')} href="/bio">
             Bio
           </a>
         </li>
-        <li className="nav-item">
+        <li className="navItem">
           <a className={aClassnamesWithNavLink('/writings')} href="/writings">
             Writings
           </a>
         </li>
-        <li className="nav-item">
+        <li className="navItem">
           <a className={aClassnamesWithNavLink('/zines')} href="/zines">
             Zines
           </a>
         </li>
-        <li className="nav-item">
+        <li className="navItem">
           <a className={aClassnamesWithNavLink('/contact')} href="/contact">
             Contact
           </a>
