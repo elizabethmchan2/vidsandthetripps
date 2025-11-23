@@ -6,9 +6,19 @@ import classNames from 'classnames';
 import './Loader.scss';
 
 // TODO: fix css modules
-const Loader = ({ shouldStartSpinning }: { shouldStartSpinning?: boolean }) => {
+const Loader = ({
+  className,
+  shouldStartSpinning,
+}: {
+  className?: string;
+  shouldStartSpinning?: boolean;
+}) => {
   return (
-    <div className={classNames('loading', { animate: shouldStartSpinning })}>
+    <div
+      className={classNames('loading', className, {
+        animate: shouldStartSpinning,
+      })}
+    >
       <div className="wrapper">
         <Record className="record" />
         <Platter className="platter" />

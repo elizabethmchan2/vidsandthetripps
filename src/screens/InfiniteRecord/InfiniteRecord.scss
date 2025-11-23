@@ -9,6 +9,11 @@
   justify-content: center;
   align-items: center;
 
+  .recordLoader {
+    padding-top: 2rem;
+    transform: scale(135%);
+  }
+
   .face {
     position: absolute;
     left: 3rem;
@@ -25,6 +30,7 @@
     transition: opacity ease-out 500ms;
     color: white;
     width: 90px;
+    margin-top: 1rem;
 
     &:hover {
       color: #da0a79;

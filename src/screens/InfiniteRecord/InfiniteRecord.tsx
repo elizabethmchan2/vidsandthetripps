@@ -25,14 +25,17 @@ const InfiniteRecord = () => {
     setShowButton(false);
     const changeRoute = window.setInterval(() => {
       navigate('/home');
-    }, 4000);
+    }, 5000);
     routeChangeRef.current = changeRoute;
   };
 
   return (
     <div className="main">
-      <Face className="face" />
-      <Loader shouldStartSpinning={shouldStartSpinning} />
+      <Face className="face" shouldStartNoteAnimation={shouldStartSpinning} />
+      <Loader
+        className="recordLoader"
+        shouldStartSpinning={shouldStartSpinning}
+      />
       <button
         type="button"
         onClick={onClick}
