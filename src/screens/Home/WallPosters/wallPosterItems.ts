@@ -1,4 +1,4 @@
-import ourCultureImage from '../../../assets/works/ourCultureLAWitch.webp';
+import ourCultureImage from '../../../assets/works/OurCultureLAWitch.webp';
 import reginaSpektor from '../../../assets/works/reginaSpektor.webp';
 // import garbage from '../assets/works/garbage.webp';
 // import blackWaterHolyLightImage from '../assets/works/newNoiseBlackwaterHolylight.webp';
