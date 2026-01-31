@@ -1,6 +1,7 @@
 import MainContainer from '../../MainContainer/MainContainer';
 import raincoatsZine from '../../assets/zines/raincoats-zine.jpg';
 import physicalMediaZine from '../../assets/zines/physicalmedia-zine.jpg';
+import physicalMediaZineTwo from '../../assets/zines/physicalmedia-zine-two.jpg';
 import mosswodMeltdownZine from '../../assets/zines/mosswoodmeltdown-zine.jpg';
 import sleaterKinneyZine from '../../assets/zines/sleater-kinney-zine.jpg';
 
@@ -49,8 +50,21 @@ const Zines = () => {
             <h2>"Physical Media"</h2>
             <p>
               Guide on how to stop streaming music and enter the world of
-              physical media. Available at: Elliot Bay Books, Charlie's Queer
-              Books, Green Apple (Clement St.), Green Apple (9th Ave).
+              physical media. Available in Seattle and San Francisco bookstores.
+            </p>
+          </section>
+
+          <section className="zinesSection">
+            <img
+              className="zineCover"
+              src={physicalMediaZineTwo}
+              alt='Cover of "Physical Media #2" by Vida Hasson'
+            />
+            <h2>"Physical Media #2"</h2>
+            <p>
+              The second installment in the Physical Media series focusing on
+              audio-visual media. Available in Seattle and San Francisco
+              bookstores.
             </p>
           </section>
 
