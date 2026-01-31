@@ -37,7 +37,15 @@ const Zines = () => {
               inspired by Bloomsbury's 33 1/3 series on The Raincoats self
               titled debut album released in 1979. The first issue spotlights
               San Francisco punks Frightwig, the band that inspired the sound
-              and ethos of the riot grrrl movement.
+              and ethos of the riot grrrl movement.{' '}
+            </p>
+            <p className="raincoatsQuote">
+              "Thanks to bands like Frightwig, zine makers like Vida, and other
+              lifers, the generations of DIY punk will be connected and continue
+              to thrive forever." -
+              <a href="https://razorcake.org/do-you-know-the-raincoats-fall-2025-5-or-trade-5%C2%BD-x-8-black-and-white-22-pgs/">
+                Razorcake
+              </a>
             </p>
           </section>
 
@@ -77,14 +85,14 @@ const Zines = () => {
             <h2>"Shirts I saw at Mosswood Meltdown"</h2>
             <p>
               "This humble zine encapsulates so much of what I love about the
-              DIY punk scene...Vida’s colorful photos and hand-scribbled,
+              DIY punk scene... Vida’s colorful photos and hand-scribbled,
               stream-of-conscious captions capture the magic of going to a show
               and feeling like you belong, even though you don’t know anyone
               there. In her case, she saw G.L.O.S.S., Scowl, Bratmobile, and
               Madonna shirts and knew she was with her people. And because I was
               wearing a Night Court tee, now we’re friends!" –
               <a href="https://razorcake.org/shirts-i-saw-at-mosswood-meltdown-2025-5%C2%BD-x-81%C2%BD-color-copy-20-pgs/">
-                Martin Wong
+                Razorcake
               </a>
             </p>
           </section>
