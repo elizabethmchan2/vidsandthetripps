@@ -8,6 +8,14 @@ const InterviewsAndProfiles = () => {
       <ul className="sectionList">
         <li>
           <a
+            href="https://newnoisemagazine.com/interviews/surfbort-reality-star/"
+            target="_blank"
+          >
+            Surfbort
+          </a>
+        </li>
+        <li>
+          <a
             href="https://newnoisemagazine.com/interviews/interview-dream-nails-you-wish"
             target="_blank"
           >

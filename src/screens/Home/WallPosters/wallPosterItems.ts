@@ -1,27 +1,18 @@
 import ourCultureImage from '../../../assets/works/OurCultureLAWitch.webp';
 import reginaSpektor from '../../../assets/works/reginaSpektor.webp';
 import allisonWolfe from '../../../assets/works/allisonWolfe.jpg';
-import hunxAndHisPunxImage from '../../../assets/works/hunxandhispunx.webp';
+import surfbort from '../../../assets/works/surfbort.jpg';
 
 export type AlbumData = {
   href: string;
   src: string;
   altText: string;
 };
-export type WallPosterType =
-  | {
-      key: string;
-      type: 'album';
-      data: AlbumData;
-    }
-  | {
-      key: string;
-      type: 'about';
-    }
-  | {
-      key: string;
-      type: 'facePoster';
-    };
+export type WallPosterType = {
+  key: string;
+  type: 'album';
+  data: AlbumData;
+};
 
 // NOTE: the order of the items affects how they appear and are styled
 export const WALL_POSTER_ITEMS: WallPosterType[] = [
@@ -53,12 +44,12 @@ export const WALL_POSTER_ITEMS: WallPosterType[] = [
     },
   },
   {
-    key: 'hunx-and-his-punks',
+    key: 'surfbort',
     type: 'album',
     data: {
-      href: 'https://newnoisemagazine.com/reviews/hunx-and-his-punx-walk-out-on-this-world/',
-      src: hunxAndHisPunxImage,
-      altText: 'Hunx and His Punx - Walk Out On This World album cover',
+      href: 'https://newnoisemagazine.com/interviews/surfbort-reality-star/',
+      src: surfbort,
+      altText: 'Surfbort - Reality Star album cover',
     },
   },
 ];
