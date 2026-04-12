@@ -4,6 +4,7 @@ import physicalMediaZine from '../../assets/zines/physicalmedia-zine.jpg';
 import physicalMediaZineTwo from '../../assets/zines/physicalmedia-zine-two.jpg';
 import mosswodMeltdownZine from '../../assets/zines/mosswoodmeltdown-zine.jpg';
 import sleaterKinneyZine from '../../assets/zines/sleater-kinney-zine.jpg';
+import pissZine from '../../assets/zines/piss-zine.jpg';
 
 import './Zines.scss';
 
@@ -27,6 +28,23 @@ const Zines = () => {
           <section className="zinesSection">
             <img
               className="zineCover"
+              src={pissZine}
+              alt='Cover of "Do You Know The Raincoats? (Spring 2026): PISS" by Vida Hasson'
+            />
+            <h2>"Do You Know The Raincoats?"</h2>
+            <h3>Spring 2026: PISS</h3>
+            <p>
+              A zine series featuring interviews with feminist punk bands
+              inspired by Bloomsbury's 33 1/3 series on The Raincoats self
+              titled debut album released in 1979. The second issue spotlights
+              Vancouver punk band PISS, the band who quotes anarchist feminists,
+              Andrea Dworkin, and bell hooks in a single album.{' '}
+            </p>
+          </section>
+
+          <section className="zinesSection">
+            <img
+              className="zineCover"
               src={raincoatsZine}
               alt='Cover of "Do You Know The Raincoats? (Fall 2025): Frightwig" by Vida Hasson'
             />
@@ -36,8 +54,8 @@ const Zines = () => {
               A zine series featuring interviews with feminist punk bands
               inspired by Bloomsbury's 33 1/3 series on The Raincoats self
               titled debut album released in 1979. The first issue spotlights
-              San Francisco punks Frightwig, the band that inspired the sound
-              and ethos of the riot grrrl movement.{' '}
+              San Francisco punks Frightwig, the band who inspired the sound and
+              ethos of the riot grrrl movement.{' '}
             </p>
             <p className="raincoatsQuote">
               "Thanks to bands like Frightwig, zine makers like Vida, and other
@@ -52,19 +70,6 @@ const Zines = () => {
           <section className="zinesSection">
             <img
               className="zineCover"
-              src={physicalMediaZine}
-              alt='Cover of "Physical Media" by Vida Hasson'
-            />
-            <h2>"Physical Media"</h2>
-            <p>
-              Guide on how to stop streaming music and enter the world of
-              physical media. Available in Seattle and San Francisco bookstores.
-            </p>
-          </section>
-
-          <section className="zinesSection">
-            <img
-              className="zineCover"
               src={physicalMediaZineTwo}
               alt='Cover of "Physical Media #2" by Vida Hasson'
             />
@@ -73,6 +78,19 @@ const Zines = () => {
               The second installment in the Physical Media series focusing on
               audio-visual media. Available in Seattle and San Francisco
               bookstores.
+            </p>
+          </section>
+
+          <section className="zinesSection">
+            <img
+              className="zineCover"
+              src={physicalMediaZine}
+              alt='Cover of "Physical Media" by Vida Hasson'
+            />
+            <h2>"Physical Media"</h2>
+            <p>
+              Guide on how to stop streaming music and enter the world of
+              physical media. Available in Seattle and San Francisco bookstores.
             </p>
           </section>
 
