@@ -11,10 +11,10 @@ const ZineAnimation = ({ onClick }: { onClick: () => void }) => {
   useEffect(() => {
     const hasSeenZineAnimation = localStorage.getItem(NEW_ZINE_LOCAL_STORAGE);
     if (hasSeenZineAnimation && Number(hasSeenZineAnimation) <= 2) {
-      const newCount = Number(hasSeenZineAnimation || 0) + 1;
+      const newCount = Number(hasSeenZineAnimation || 1) + 1;
       localStorage.setItem(NEW_ZINE_LOCAL_STORAGE, `${newCount}`);
     } else if (!hasSeenZineAnimation) {
-      localStorage.setItem(NEW_ZINE_LOCAL_STORAGE, `${0}`);
+      localStorage.setItem(NEW_ZINE_LOCAL_STORAGE, `${1}`);
     }
   }, []);
 
