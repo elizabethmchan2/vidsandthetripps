@@ -24,7 +24,14 @@ const Contact = () => {
           </a>
           .
         </p>
-        <img src={BioHeadshot} alt="portrait of Vida Hasson" />
+        <img
+          src={BioHeadshot}
+          alt="portrait of Vida Hasson"
+          className="contactHeadshot"
+        />
+        <p>
+          Me at IRPC (Independent Publishing Resource Center) in Portland, OR.
+        </p>
       </div>
     </MainContainer>
   );
