@@ -3,7 +3,7 @@ import WallPosters from './WallPosters/WallPosters';
 import MainContainer from '../../MainContainer/MainContainer';
 import pissZine from '../../assets/zines/piss-zine.jpg';
 import './ZineAnimation.scss';
-import { NewZine } from '../../assets/home/NewZine.tsx';
+import { NewZinePiss } from '../../assets/home/NewZinePiss.tsx';
 
 const NEW_ZINE_LOCAL_STORAGE = 'new-zine-animation';
 
@@ -39,7 +39,7 @@ const ZineAnimation = ({ onClick }: { onClick: () => void }) => {
           />
         </a>
         <a href="/zines">
-          <NewZine className="overlayNewZine" />
+          <NewZinePiss className="overlayNewZine" />
         </a>
       </button>
       <button
@@ -56,7 +56,7 @@ const ZineAnimation = ({ onClick }: { onClick: () => void }) => {
         </a>
         <a href="/zines">
           {' '}
-          <NewZine className="overlayNewZine" />{' '}
+          <NewZinePiss className="overlayNewZine" />{' '}
         </a>
       </button>
     </dialog>

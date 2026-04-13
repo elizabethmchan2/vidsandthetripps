@@ -1,4 +1,4 @@
-export const NewZine = ({ className }: { className: string }) => {
+export const NewZinePiss = ({ className }: { className: string }) => {
   return (
     <svg
       width="360"
