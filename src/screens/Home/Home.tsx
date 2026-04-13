@@ -81,7 +81,7 @@ const ZineAnimation = ({ onClick }: { onClick: () => void }) => {
 };
 
 const Home = () => {
-  const [isZineAnimationShown, setIsZineAnimationShown] = useState(true);
+  const [isZineAnimationShown, setIsZineAnimationShown] = useState(false);
 
   return (
     <MainContainer childrenContainerClassname="childrenContainerHomePage">
