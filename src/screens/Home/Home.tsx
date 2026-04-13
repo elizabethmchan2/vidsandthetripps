@@ -3,7 +3,7 @@ import WallPosters from './WallPosters/WallPosters';
 import MainContainer from '../../MainContainer/MainContainer';
 import pissZine from '../../assets/zines/piss-zine.jpg';
 import './ZineAnimation.scss';
-import { NewZine } from '../../assets/home/newZine';
+import { NewZine } from '../../assets/home/NewZine.tsx';
 
 const NEW_ZINE_LOCAL_STORAGE = 'new-zine-animation';
 
