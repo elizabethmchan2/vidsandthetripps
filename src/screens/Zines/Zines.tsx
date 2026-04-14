@@ -80,8 +80,7 @@ const Zines = () => {
             <h2>"Physical Media #2"</h2>
             <p>
               The second installment in the Physical Media series focusing on
-              audio-visual media. Available in Seattle and San Francisco
-              bookstores.
+              audio-visual media. Available in Seattle bookstores.
             </p>
           </section>
 
