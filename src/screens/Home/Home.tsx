@@ -81,12 +81,13 @@ const ZineAnimation = ({ onClick }: { onClick: () => void }) => {
 };
 
 const Home = () => {
-  const [isZineAnimationShown, setIsZineAnimationShown] = useState(false);
+  const [isZineAnimationShown, setIsZineAnimationShown] = useState(true);
+  const hasQueryParam = new URLSearchParams(window.location.search).get('test');
 
   return (
     <MainContainer childrenContainerClassname="childrenContainerHomePage">
       <WallPosters />
-      {isZineAnimationShown && (
+      {hasQueryParam && isZineAnimationShown && (
         <ZineAnimation onClick={() => setIsZineAnimationShown(false)} />
       )}
     </MainContainer>
