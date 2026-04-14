@@ -7,6 +7,9 @@ const InterviewsAndProfiles = () => {
       <h2> Interviews/Profiles </h2>
       <ul className="sectionList">
         <li>
+          <a href="/zines">PISS</a>
+        </li>
+        <li>
           <a
             href="https://newnoisemagazine.com/interviews/surfbort-reality-star/"
             target="_blank"
