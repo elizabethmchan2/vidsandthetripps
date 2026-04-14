@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import WallPosters from './WallPosters/WallPosters';
 import MainContainer from '../../MainContainer/MainContainer';
 import pissZine from '../../assets/zines/piss-zine.jpg';
@@ -8,6 +8,13 @@ import { NewZinePiss } from '../../assets/home/NewZinePiss.tsx';
 const NEW_ZINE_LOCAL_STORAGE = 'new-zine-animation';
 
 const ZineAnimation = ({ onClick }: { onClick: () => void }) => {
+  const isSafari = useMemo(() => {
+    const userAgent = navigator.userAgent;
+    const hasChrome = userAgent.includes('Chrome');
+    const hasSafari = userAgent.includes('Safari');
+    return !hasChrome && hasSafari;
+  }, []);
+
   useEffect(() => {
     const hasSeenZineAnimation = localStorage.getItem(NEW_ZINE_LOCAL_STORAGE);
     if (hasSeenZineAnimation && Number(hasSeenZineAnimation) <= 2) {
@@ -20,7 +27,7 @@ const ZineAnimation = ({ onClick }: { onClick: () => void }) => {
 
   const hasSeenZineAnimation = localStorage.getItem(NEW_ZINE_LOCAL_STORAGE);
 
-  if (Number(hasSeenZineAnimation) >= 2) {
+  if (isSafari || Number(hasSeenZineAnimation) >= 2) {
     return null;
   }
 

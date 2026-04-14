@@ -112,23 +112,30 @@
 @keyframes spinAndBigger {
   100% {
     transform: translate(-50%, -50%) scale(500%) rotate(720deg) translateZ(0);
+    -webkit-transform: translate(-50%, -50%) scale(500%) rotate(720deg)
+      translateZ(0);
   }
 }
 
 @keyframes moveLeft {
   100% {
     transform: translate(-400%, -50%) scale(500%) rotate(720deg) translateZ(0);
+    -webkit-transform: translate(-400%, -50%) scale(500%) rotate(720deg)
+      translateZ(0);
   }
 }
 
 @keyframes spinAndBiggerMobile {
   100% {
     transform: translate(0, 0) scale(300%) rotate(720deg) translateZ(0);
+    -webkit-transform: translate(0, 0) scale(300%) rotate(720deg) translateZ(0);
   }
 }
 
 @keyframes moveDownMobile {
   100% {
     transform: translate(0, 100%) scale(300%) rotate(720deg) translateZ(0);
+    -webkit-transform: translate(0, 100%) scale(300%) rotate(720deg)
+      translateZ(0);
   }
 }
