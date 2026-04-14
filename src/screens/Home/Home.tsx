@@ -36,7 +36,7 @@ const ZineAnimation = ({ onClick }: { onClick: () => void }) => {
 
   const hasSeenZineAnimation = localStorage.getItem(NEW_ZINE_LOCAL_STORAGE);
 
-  if (isMobile || Number(hasSeenZineAnimation) > 2) {
+  if (isMobile || Number(hasSeenZineAnimation) >= 2) {
     return null;
   }
 
@@ -48,33 +48,24 @@ const ZineAnimation = ({ onClick }: { onClick: () => void }) => {
         onClick={onClick}
         type="button"
       >
-        <a href="/zines">
-          <img
-            className="zineCover"
-            src={pissZine}
-            alt='Cover of "Do You Know The Raincoats? (Spring 2026): PISS" by Vida Hasson'
-          />
-        </a>
-        <a href="/zines">
-          <NewZinePiss className="overlayNewZine" />
-        </a>
+        <img
+          className="zineCover"
+          src={pissZine}
+          alt='Cover of "Do You Know The Raincoats? (Spring 2026): PISS" by Vida Hasson'
+        />
+        <NewZinePiss className="overlayNewZine" />
       </button>
       <button
         className="overlayImage overlayImage-mobile"
         onClick={onClick}
         type="button"
       >
-        <a href="/zines">
-          <img
-            className="zineCover"
-            src={pissZine}
-            alt='Cover of "Do You Know The Raincoats? (Spring 2026): PISS" by Vida Hasson'
-          />
-        </a>
-        <a href="/zines">
-          {' '}
-          <NewZinePiss className="overlayNewZine" />{' '}
-        </a>
+        <img
+          className="zineCover"
+          src={pissZine}
+          alt='Cover of "Do You Know The Raincoats? (Spring 2026): PISS" by Vida Hasson'
+        />{' '}
+        <NewZinePiss className="overlayNewZine" />{' '}
       </button>
     </dialog>
   );
@@ -82,12 +73,11 @@ const ZineAnimation = ({ onClick }: { onClick: () => void }) => {
 
 const Home = () => {
   const [isZineAnimationShown, setIsZineAnimationShown] = useState(true);
-  const hasQueryParam = new URLSearchParams(window.location.search).get('test');
 
   return (
     <MainContainer childrenContainerClassname="childrenContainerHomePage">
       <WallPosters />
-      {hasQueryParam && isZineAnimationShown && (
+      {isZineAnimationShown && (
         <ZineAnimation onClick={() => setIsZineAnimationShown(false)} />
       )}
     </MainContainer>
