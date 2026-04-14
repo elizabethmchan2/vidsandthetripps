@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState } from 'react';
 import WallPosters from './WallPosters/WallPosters';
 import MainContainer from '../../MainContainer/MainContainer';
 import pissZine from '../../assets/zines/piss-zine.jpg';
