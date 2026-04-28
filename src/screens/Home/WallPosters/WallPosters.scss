@@ -126,6 +126,14 @@
     width: 100%;
     height: 100%;
   }
+
+  .recordStandSVG {
+    .stereo-button {
+      &:hover {
+        filter: drop-shadow(0 1px 1px rgba(255, 255, 255));
+      }
+    }
+  }
 }
 
 .wallPostersMobile {
