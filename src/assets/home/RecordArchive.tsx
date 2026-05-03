@@ -1,4 +1,16 @@
+import { useEffect, useState } from 'react';
+
 export const RecordArchive = ({ className }: { className?: string }) => {
+  const [clickedOnLeaning, setOnClickLeaning] = useState<boolean>(false);
+
+  useEffect(() => {
+    if (clickedOnLeaning) {
+      setTimeout(() => {
+        setOnClickLeaning(false);
+      }, 4000);
+    }
+  }, [clickedOnLeaning]);
+
   return (
     <svg
       className={className}
@@ -487,102 +499,120 @@ export const RecordArchive = ({ className }: { className?: string }) => {
         height="104.153"
         fill="#A39773"
       />
-      <rect
-        x="322.004"
-        y="51.3279"
-        width="2.98145"
-        height="104.153"
-        transform="rotate(27.5602 322.004 51.3279)"
-        fill="#50795F"
-      />
-      <rect
-        x="326.004"
-        y="51.3279"
-        width="2.98145"
-        height="104.153"
-        transform="rotate(27.5602 326.004 51.3279)"
-        fill="#A39773"
-      />
-      <rect
-        x="330.004"
-        y="51.3279"
-        width="2.98145"
-        height="104.153"
-        transform="rotate(27.5602 330.004 51.3279)"
-        fill="#371229"
-      />
-      <rect
-        x="334.004"
-        y="51.3279"
-        width="2.98145"
-        height="104.153"
-        transform="rotate(27.5602 334.004 51.3279)"
-        fill="#CDC392"
-      />
-      <rect
-        x="338.004"
-        y="51.3279"
-        width="2.98145"
-        height="104.153"
-        transform="rotate(27.5602 338.004 51.3279)"
-        fill="#7D4065"
-      />
-      <rect
-        x="342.004"
-        y="51.3279"
-        width="2.98145"
-        height="104.153"
-        transform="rotate(27.5602 342.004 51.3279)"
-        fill="#AE7836"
-      />
-      <rect
-        x="346.004"
-        y="51.3279"
-        width="2.98145"
-        height="104.153"
-        transform="rotate(27.5602 346.004 51.3279)"
-        fill="#CDC392"
-      />
-      <rect
-        x="350.004"
-        y="51.3279"
-        width="2.98145"
-        height="104.153"
-        transform="rotate(27.5602 350.004 51.3279)"
-        fill="#9F976E"
-      />
-      <rect
-        x="354.004"
-        y="51.3279"
-        width="2.98145"
-        height="104.153"
-        transform="rotate(27.5602 354.004 51.3279)"
-        fill="#8A3669"
-      />
-      <rect
-        x="358.004"
-        y="51.3279"
-        width="2.98145"
-        height="104.153"
-        transform="rotate(27.5602 358.004 51.3279)"
-        fill="#7EB7E5"
-      />
-      <rect
-        x="362.004"
-        y="51.3279"
-        width="2.98145"
-        height="104.153"
-        transform="rotate(27.5602 362.004 51.3279)"
-        fill="#A9420F"
-      />
-      <rect
-        x="366.004"
-        y="51.3279"
-        width="2.98145"
-        height="104.153"
-        transform="rotate(27.5602 366.004 51.3279)"
-        fill="#A39773"
-      />
+      {/* leaning items */}
+      <g
+        className={`leaningRecordsGroup ${clickedOnLeaning ? 'leaningRecordsGroup-active' : ''}`}
+        onClick={() => setOnClickLeaning(true)}
+      >
+        <rect
+          x="322.004"
+          y="51.3279"
+          width="2.98145"
+          height="104.153"
+          transform="rotate(27.5602 322.004 51.3279)"
+          fill="#50795F"
+          className="leaningRecords"
+        />
+        <rect
+          x="326.004"
+          y="51.3279"
+          width="2.98145"
+          height="104.153"
+          transform="rotate(27.5602 326.004 51.3279)"
+          fill="#A39773"
+          className="leaningRecords"
+        />
+        <rect
+          x="330.004"
+          y="51.3279"
+          width="2.98145"
+          height="104.153"
+          transform="rotate(27.5602 330.004 51.3279)"
+          fill="#371229"
+          className="leaningRecords"
+        />
+        <rect
+          x="334.004"
+          y="51.3279"
+          width="2.98145"
+          height="104.153"
+          transform="rotate(27.5602 334.004 51.3279)"
+          fill="#CDC392"
+          className="leaningRecords"
+        />
+        <rect
+          x="338.004"
+          y="51.3279"
+          width="2.98145"
+          height="104.153"
+          transform="rotate(27.5602 338.004 51.3279)"
+          fill="#7D4065"
+          className="leaningRecords"
+        />
+        <rect
+          x="342.004"
+          y="51.3279"
+          width="2.98145"
+          height="104.153"
+          transform="rotate(27.5602 342.004 51.3279)"
+          fill="#AE7836"
+          className="leaningRecords"
+        />
+        <rect
+          x="346.004"
+          y="51.3279"
+          width="2.98145"
+          height="104.153"
+          transform="rotate(27.5602 346.004 51.3279)"
+          fill="#CDC392"
+          className="leaningRecords"
+        />
+        <rect
+          x="350.004"
+          y="51.3279"
+          width="2.98145"
+          height="104.153"
+          transform="rotate(27.5602 350.004 51.3279)"
+          fill="#9F976E"
+          className="leaningRecords"
+        />
+        <rect
+          x="354.004"
+          y="51.3279"
+          width="2.98145"
+          height="104.153"
+          transform="rotate(27.5602 354.004 51.3279)"
+          fill="#8A3669"
+          className="leaningRecords"
+        />
+        <rect
+          x="358.004"
+          y="51.3279"
+          width="2.98145"
+          height="104.153"
+          transform="rotate(27.5602 358.004 51.3279)"
+          fill="#7EB7E5"
+          className="leaningRecords"
+        />
+        <rect
+          x="362.004"
+          y="51.3279"
+          width="2.98145"
+          height="104.153"
+          transform="rotate(27.5602 362.004 51.3279)"
+          fill="#A9420F"
+          className="leaningRecords"
+        />
+        <rect
+          x="366.004"
+          y="51.3279"
+          width="2.98145"
+          height="104.153"
+          transform="rotate(27.5602 366.004 51.3279)"
+          fill="#A39773"
+          className="leaningRecords"
+        />
+      </g>
     </svg>
   );
 };

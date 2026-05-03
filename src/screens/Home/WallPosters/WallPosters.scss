@@ -144,6 +144,21 @@
         cursor: pointer;
       }
     }
+
+    .leaningRecordsGroup {
+      .leaningRecords {
+        transform-origin: bottom;
+        transform-box: border-box;
+        transform: translateX(-48px) translateY(-10.5px) rotate(28deg);
+        transition-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+        transition-duration: 1s;
+      }
+    }
+    .leaningRecordsGroup-active {
+      .leaningRecords {
+        transform: translateX(-48px) translateY(-10.5px) rotate(0deg);
+      }
+    }
   }
 }
 
