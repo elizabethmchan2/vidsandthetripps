@@ -176,13 +176,20 @@ export const RecordArchive = ({ className }: { className?: string }) => {
         height="104.153"
         fill="#7D4065"
       />
-      <rect
-        x="105.814"
-        y="40.8887"
-        width="2.98145"
-        height="104.153"
-        fill="#EE88EE"
-      />
+      <a
+        href="https://www.youtube.com/watch?v=SJUys65clN8"
+        target="_blank"
+        aria-label="Link to easter egg"
+      >
+        <rect
+          x="105.814"
+          y="40.8887"
+          width="2.98145"
+          height="104.153"
+          fill="#EE88EE"
+          className="tomtomclub"
+        />
+      </a>
       <rect
         x="109.814"
         y="40.8887"

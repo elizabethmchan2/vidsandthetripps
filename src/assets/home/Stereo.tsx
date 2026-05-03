@@ -301,6 +301,7 @@ export const Stereo = ({ className }: { className?: string }) => {
         fill="#393434"
         className="stereo-button"
         onClick={() => setOutputType('TAPE 1')}
+        tabIndex={0}
       />
       <rect
         x="129.238"
@@ -310,6 +311,7 @@ export const Stereo = ({ className }: { className?: string }) => {
         fill="#393434"
         className="stereo-button"
         onClick={() => setOutputType('TAPE 2')}
+        tabIndex={0}
       />
       <rect
         x="142.939"
@@ -319,6 +321,7 @@ export const Stereo = ({ className }: { className?: string }) => {
         fill="#393434"
         className="stereo-button"
         onClick={() => setOutputType('CD')}
+        tabIndex={0}
       />
       <rect
         x="156.641"
@@ -328,6 +331,7 @@ export const Stereo = ({ className }: { className?: string }) => {
         fill="#393434"
         className="stereo-button"
         onClick={() => setOutputType('PHONO')}
+        tabIndex={0}
       />
       <rect
         x="170.342"
@@ -337,6 +341,7 @@ export const Stereo = ({ className }: { className?: string }) => {
         fill="#393434"
         className="stereo-button"
         onClick={() => setOutputType('RADIO')}
+        tabIndex={0}
       />
       <rect
         x="122.776"
