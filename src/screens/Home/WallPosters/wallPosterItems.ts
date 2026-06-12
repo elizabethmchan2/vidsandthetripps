@@ -1,4 +1,4 @@
-import ourCultureImage from '../../../assets/works/OurCultureLAWitch.webp';
+import pussyRiotCyka from '../../../assets/works/pussyRiotCyka.jpg';
 import reginaSpektor from '../../../assets/works/reginaSpektor.webp';
 import allisonWolfe from '../../../assets/works/allisonWolfe.jpg';
 import surfbort from '../../../assets/works/surfbort.jpg';
@@ -26,12 +26,12 @@ export const WALL_POSTER_ITEMS: WallPosterType[] = [
     },
   },
   {
-    key: 'la-witch',
+    key: 'pussy-riot',
     type: 'album',
     data: {
-      href: 'https://ourculturemag.com/2025/04/05/album-review-l-a-witch-doggod/',
-      src: ourCultureImage,
-      altText: 'LA Witch - Doggod album cover',
+      href: 'https://www.thelineofbestfit.com/features/interviews/how-nadya-tolokonnikova-pussy-riot-turned-body-into-missile/',
+      src: pussyRiotCyka,
+      altText: 'Pussy Riot - CYKA',
     },
   },
   {

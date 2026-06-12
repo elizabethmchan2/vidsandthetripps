@@ -7,6 +7,14 @@ const InterviewsAndProfiles = () => {
       <h2> Interviews/Profiles </h2>
       <ul className="sectionList">
         <li>
+          <a
+            href="https://www.thelineofbestfit.com/features/interviews/how-nadya-tolokonnikova-pussy-riot-turned-body-into-missile/"
+            target="_blank"
+          >
+            Nadya Tolokonnikova (Pussy Riot)
+          </a>
+        </li>
+        <li>
           <a href="/zines">PISS</a>
         </li>
         <li>
@@ -30,7 +38,7 @@ const InterviewsAndProfiles = () => {
             href="https://www.thelineofbestfit.com/features/interviews/bratmobile-allison-wolfe-real-janelle"
             target="_blank"
           >
-            Allison Wolfe
+            Allison Wolfe (Bratmobile)
           </a>
         </li>
         <li>
