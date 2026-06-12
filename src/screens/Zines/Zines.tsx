@@ -44,6 +44,13 @@ const Zines = () => {
               Vancouver punk band PISS, the band who quotes anarchist feminists,
               Andrea Dworkin, and bell hooks in a single album.{' '}
             </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf87A1ExToej_Bi_I1tVo-dNmBYm2NR-V8KcQjOJmsEzFtc2A/viewform"
+              target="_blank"
+              className="orderHere"
+            >
+              ORDER HERE
+            </a>
           </section>
 
           <section className="zinesSection">
@@ -69,6 +76,13 @@ const Zines = () => {
                 Razorcake
               </a>
             </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf87A1ExToej_Bi_I1tVo-dNmBYm2NR-V8KcQjOJmsEzFtc2A/viewform"
+              target="_blank"
+              className="orderHere"
+            >
+              ORDER HERE
+            </a>
           </section>
 
           <section className="zinesSection">
@@ -82,6 +96,13 @@ const Zines = () => {
               The second installment in the Physical Media series focusing on
               audio-visual media. Available in Seattle bookstores.
             </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf87A1ExToej_Bi_I1tVo-dNmBYm2NR-V8KcQjOJmsEzFtc2A/viewform"
+              target="_blank"
+              className="orderHere"
+            >
+              ORDER HERE
+            </a>
           </section>
 
           <section className="zinesSection">
@@ -95,6 +116,13 @@ const Zines = () => {
               Guide on how to stop streaming music and enter the world of
               physical media. Available in Seattle and San Francisco bookstores.
             </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf87A1ExToej_Bi_I1tVo-dNmBYm2NR-V8KcQjOJmsEzFtc2A/viewform"
+              target="_blank"
+              className="orderHere"
+            >
+              ORDER HERE
+            </a>
           </section>
 
           <section className="zinesSection">
@@ -116,6 +144,13 @@ const Zines = () => {
                 Razorcake
               </a>
             </p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf87A1ExToej_Bi_I1tVo-dNmBYm2NR-V8KcQjOJmsEzFtc2A/viewform"
+              target="_blank"
+              className="orderHere"
+            >
+              ORDER HERE
+            </a>
           </section>
 
           <section className="zinesSection">
