@@ -8,9 +8,7 @@ const Bio = () => {
       <div className="bio">
         <div className="bioLeft">
           <p>
-            Vida Hasson is a writer, music critic, and zine artist from San
-            Francisco. Her writing has appeared in Razorcake, Our Culture Mag,
-            New Noise Magazine, The Line of Best Fit, and Under the Radar. She
+            Vida Hasson is a writer and zine artist from San Francisco. She
             graduated from Claremont McKenna College with an honors degree in
             Literature and a minor in Gender and Sexuality Studies, completing
             her{' '}
@@ -21,7 +19,8 @@ const Bio = () => {
             >
               undergraduate thesis
             </a>{' '}
-            on Riot Grrrl song lyrics.
+            on Riot Grrrl song lyrics. She is currently a student in the
+            Master's of Arts in English program at New York University.
           </p>
         </div>
         <div className="bioRight">
