@@ -19,8 +19,8 @@ const Bio = () => {
             >
               undergraduate thesis
             </a>{' '}
-            on Riot Grrrl song lyrics. She is currently a student in the
-            Master's of Arts in English program at New York University.
+            on Riot Grrrl lyrics. She is currently a student in the Master's of
+            Arts in English program at New York University.
           </p>
         </div>
         <div className="bioRight">
