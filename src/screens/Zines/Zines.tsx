@@ -165,7 +165,13 @@ const Zines = () => {
               A screenplay? All the books I read in 2024? Indoctrinating others
               into the analog life? Shouts from the Seattle music scene?
             </p>
-            <p>Available by special request.</p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf87A1ExToej_Bi_I1tVo-dNmBYm2NR-V8KcQjOJmsEzFtc2A/viewform"
+              target="_blank"
+              className="orderHere"
+            >
+              ORDER HERE
+            </a>
           </section>
 
           <section className="zinesSection">
@@ -183,7 +189,13 @@ const Zines = () => {
               Is In The Wrong Place' in conjunction with my experience no longer
               streaming music, and give flash fiction a shot.
             </p>
-            <p>Available by special request.</p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf87A1ExToej_Bi_I1tVo-dNmBYm2NR-V8KcQjOJmsEzFtc2A/viewform"
+              target="_blank"
+              className="orderHere"
+            >
+              ORDER HERE
+            </a>
           </section>
 
           <section className="zinesSection">
@@ -210,7 +222,13 @@ const Zines = () => {
               Features two stories your great-aunt would love, some xerox art,
               and the lineup for DJ Piano Fingers first fake show.
             </p>
-            <p>Available by special request.</p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf87A1ExToej_Bi_I1tVo-dNmBYm2NR-V8KcQjOJmsEzFtc2A/viewform"
+              target="_blank"
+              className="orderHere"
+            >
+              ORDER HERE
+            </a>
           </section>
 
           <section className="zinesSection">
@@ -228,7 +246,13 @@ const Zines = () => {
               Sleater-Kinnney's album 'Little Rope,' and a day in the music life
               of DJ Piano Fingers.
             </p>
-            <p>Available by special request.</p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf87A1ExToej_Bi_I1tVo-dNmBYm2NR-V8KcQjOJmsEzFtc2A/viewform"
+              target="_blank"
+              className="orderHere"
+            >
+              ORDER HERE
+            </a>
           </section>
         </div>
       </div>
