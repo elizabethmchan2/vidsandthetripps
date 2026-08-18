@@ -1,5 +1,5 @@
 import MainContainer from '../../MainContainer/MainContainer';
-import BioHeadshot from '../../assets/vidahasson/bioHeadshot.jpg';
+import BioHeadshot from '../../assets/vidahasson/bioHeadshot.jpeg';
 import './Contact.scss';
 
 const Contact = () => {
@@ -29,9 +29,6 @@ const Contact = () => {
           alt="portrait of Vida Hasson"
           className="contactHeadshot"
         />
-        <p>
-          Me at IRPC (Independent Publishing Resource Center) in Portland, OR.
-        </p>
       </div>
     </MainContainer>
   );
