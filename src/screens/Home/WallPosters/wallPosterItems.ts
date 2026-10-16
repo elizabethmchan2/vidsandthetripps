@@ -1,5 +1,5 @@
 import pussyRiotCyka from '../../../assets/works/pussyRiotCyka.jpg';
-import reginaSpektor from '../../../assets/works/reginaSpektor.webp';
+import heavensToBetsy from '../../../assets/works/heavensToBetsy.jpeg';
 import allisonWolfe from '../../../assets/works/allisonWolfe.jpg';
 import surfbort from '../../../assets/works/surfbort.jpg';
 
@@ -17,12 +17,12 @@ export type WallPosterType = {
 // NOTE: the order of the items affects how they appear and are styled
 export const WALL_POSTER_ITEMS: WallPosterType[] = [
   {
-    key: 'regina-spektor',
+    key: 'heavens-to-betsy',
     type: 'album',
     data: {
-      href: 'https://ourculturemag.com/2025/05/21/vinyl-reissues-10-essential-regina-spektor-songs/',
-      src: reginaSpektor,
-      altText: 'Photo of Regina Spektor',
+      href: 'https://www.thelineofbestfit.com/features/interviews/heavens-to-betsy-on-their-reunion-grown-up-style',
+      src: heavensToBetsy,
+      altText: 'Photo of heavens to betsy',
     },
   },
   {
