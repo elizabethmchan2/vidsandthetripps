@@ -8,6 +8,22 @@ const InterviewsAndProfiles = () => {
       <ul className="sectionList">
         <li>
           <a
+            href="https://www.thelineofbestfit.com/features/interviews/heavens-to-betsy-on-their-reunion-grown-up-style"
+            target="_blank"
+          >
+            heavens to betsy
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.thelineofbestfit.com/features/interviews/the-team-dresch-encore-we-didnt-know-we-needed"
+            target="_blank"
+          >
+            Team Dresch
+          </a>
+        </li>
+        <li>
+          <a
             href="https://www.thelineofbestfit.com/features/interviews/how-nadya-tolokonnikova-pussy-riot-turned-body-into-missile/"
             target="_blank"
           >
