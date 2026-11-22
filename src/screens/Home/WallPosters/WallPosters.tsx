@@ -4,8 +4,8 @@ import { Bookshelf } from '../../../assets/home/Bookshelf.tsx';
 import { CDPlayer } from '../../../assets/home/CDPlayer.tsx';
 import { RecordArchive } from '../../../assets/home/RecordArchive.tsx';
 import { ZineLibrary } from '../../../assets/home/ZineLibrary.tsx';
-import girlOnGirl from '../../../assets/works/girlongirl.jpg';
 import { useWindowSize } from '@uidotdev/usehooks';
+import girlOnGirl from '../../../assets/works/girlongirl.webp';
 import moodMachine from '../../../assets/works/moodMachine.webp';
 
 import './WallPosters.scss';

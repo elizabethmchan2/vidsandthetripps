@@ -1,7 +1,7 @@
-import pussyRiotCyka from '../../../assets/works/pussyRiotCyka.jpg';
-import heavensToBetsy from '../../../assets/works/heavensToBetsy.jpeg';
-import allisonWolfe from '../../../assets/works/allisonWolfe.jpg';
-import surfbort from '../../../assets/works/surfbort.jpg';
+import pussyRiotCyka from '../../../assets/works/pussyRiotCyka.webp';
+import heavensToBetsy from '../../../assets/works/heavensToBetsy.webp';
+import allisonWolfe from '../../../assets/works/allisonWolfe.webp';
+import surfbort from '../../../assets/works/surfbort.webp';
 
 export type AlbumData = {
   href: string;

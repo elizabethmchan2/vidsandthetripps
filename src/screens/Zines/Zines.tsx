@@ -1,14 +1,14 @@
 import MainContainer from '../../MainContainer/MainContainer';
-import raincoatsZine from '../../assets/zines/raincoats-zine.jpg';
-import physicalMediaZine from '../../assets/zines/physicalmedia-zine.jpg';
-import physicalMediaZineTwo from '../../assets/zines/physicalmedia-zine-two.jpg';
-import mosswodMeltdownZine from '../../assets/zines/mosswoodmeltdown-zine.jpg';
-import outOfOffice from '../../assets/zines/outOfOffice.jpg';
-import pissZine from '../../assets/zines/piss-zine.jpg';
-import vidsAndTheTripps1 from '../../assets/zines/vidsandthetripps1-zine.jpg';
-import vidsAndTheTripps2 from '../../assets/zines/vidsandthetripps2-zine.jpg';
-import vidsAndTheTripps4 from '../../assets/zines/vidsandthetripps4-zine.jpg';
-import vidsAndTheTripps5 from '../../assets/zines/vidsandthetripps5-zine.jpg';
+import raincoatsZine from '../../assets/zines/raincoats-zine.webp';
+import physicalMediaZine from '../../assets/zines/physicalmedia-zine.webp';
+import physicalMediaZineTwo from '../../assets/zines/physicalmedia-zine-two.webp';
+import mosswodMeltdownZine from '../../assets/zines/mosswoodmeltdown-zine.webp';
+import outOfOffice from '../../assets/zines/outOfOffice.webp';
+import pissZine from '../../assets/zines/piss-zine.webp';
+import vidsAndTheTripps1 from '../../assets/zines/vidsandthetripps1-zine.webp';
+import vidsAndTheTripps2 from '../../assets/zines/vidsandthetripps2-zine.webp';
+import vidsAndTheTripps4 from '../../assets/zines/vidsandthetripps4-zine.webp';
+import vidsAndTheTripps5 from '../../assets/zines/vidsandthetripps5-zine.webp';
 
 import './Zines.scss';
 
