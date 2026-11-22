@@ -1,5 +1,5 @@
 import MainContainer from '../../MainContainer/MainContainer';
-import BioHeadshot from '../../assets/vidahasson/bioHeadshot.jpeg';
+import BioHeadshot from '../../assets/vidahasson/bioHeadshot.webp';
 import './Contact.scss';
 
 const Contact = () => {

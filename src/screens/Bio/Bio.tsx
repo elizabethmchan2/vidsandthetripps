@@ -1,4 +1,4 @@
-import bioPhoto from '../../assets/vidahasson/bioPhoto.jpg';
+import bioPhoto from '../../assets/vidahasson/bioPhoto.webp';
 import MainContainer from '../../MainContainer/MainContainer';
 import './Bio.scss';
 
