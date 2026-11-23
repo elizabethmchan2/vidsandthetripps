@@ -15,12 +15,17 @@ const Bio = () => {
             <a
               href="https://scholarship.claremont.edu/cgi/viewcontent.cgi?params=/context/cmc_theses/article/4273/&path_info=Performing_Grrrlhood__A_Lyrical_Analysis_of_Riot_Grrrl_Music.pdf"
               target="_blank"
-              className="thesis"
+              className="link"
             >
               undergraduate thesis
             </a>{' '}
             on Riot Grrrl lyrics. She is currently a student in the Master's of
-            Arts in English program at New York University.
+            Arts in English program at New York University. Learn about her
+            other zine, LIT/PUNK, at{' '}
+            <a href="https://www.litpunk.org" target="_blank" className="link">
+              litpunk.org
+            </a>
+            .
           </p>
         </div>
         <div className="bioRight">
