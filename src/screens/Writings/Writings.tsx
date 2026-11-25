@@ -148,6 +148,14 @@ const BookReviews = () => {
       <ul className="sectionList">
         <li>
           <a
+            href="https://newnoisemagazine.com/reviews/lauren-elkins-vocal-breaks-is-everything-that-traffic-will-allow/"
+            target="_blank"
+          >
+            Lauren Elkin, "Vocal Break: On Women, Music, and Power"
+          </a>
+        </li>
+        <li>
+          <a
             href="https://newnoisemagazine.com/reviews/cristy-road-carrera-sink-or-burn/"
             target="_blank"
           >
